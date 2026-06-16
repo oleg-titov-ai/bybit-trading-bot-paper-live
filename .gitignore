@@ -1,0 +1,48 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Logs
+*.log
+logs/
+
+# Private data
+private/
+secrets.json
+credentials.json
+*.bak
+*.backup
+
+# Trading private data
+real_trades.csv
+live_trades.csv
+account_snapshot*.json
+balance*.json
+orders*.json
+positions*.json
+wallet*.json
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
