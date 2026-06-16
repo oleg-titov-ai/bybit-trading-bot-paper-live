@@ -1,0 +1,4 @@
+timestamp,symbol,side,mode,entry_price,exit_price,quantity,order_size_usdt,pnl_usdt,reason
+2026-01-01T10:00:00Z,BTCUSDT,Buy,paper,42000.00,42250.00,0.000238,10.00,0.06,demo_signal_take_profit
+2026-01-01T10:15:00Z,ETHUSDT,Sell,paper,2300.00,2290.00,0.004348,10.00,0.04,demo_signal_take_profit
+2026-01-01T10:30:00Z,BTCUSDT,Buy,paper,42100.00,41980.00,0.000237,10.00,-0.03,demo_signal_stop_loss
