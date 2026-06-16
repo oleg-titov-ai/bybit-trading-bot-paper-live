@@ -1,0 +1,8 @@
+# Core runtime
+python-dotenv>=1.0.0
+
+# Optional Bybit API client for local development
+pybit>=5.8.0
+
+# Optional data analysis for local logs
+pandas>=2.0.0
