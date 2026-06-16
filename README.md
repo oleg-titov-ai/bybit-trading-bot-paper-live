@@ -24,6 +24,28 @@ The main focus of this repository is **architecture, risk management, configurat
 
 ---
 
+## 🖼️ Demo Screenshots
+
+### Bybit result card
+
+![Bybit result card](docs/screenshots/01-bybit-result-card.png)
+
+### Live order alert
+
+![Live order alert](docs/screenshots/02-live-order-alert.png)
+
+### Bot monitoring alerts
+
+![Bot monitoring alerts](docs/screenshots/03-bot-monitoring-alerts.png)
+
+### Live terminal dashboard
+
+![Live terminal dashboard](docs/screenshots/04-live-terminal-dashboard.png)
+
+More details: [`docs/demo-screenshots.md`](docs/demo-screenshots.md)
+
+---
+
 ## ✨ Features
 
 - Paper trading mode
@@ -83,7 +105,12 @@ bybit-trading-bot-paper-live/
 │   ├── setup-checklist.md
 │   ├── risk-disclaimer.md
 │   ├── security.md
-│   └── demo-screenshots.md
+│   ├── demo-screenshots.md
+│   └── screenshots/
+│       ├── 01-bybit-result-card.png
+│       ├── 02-live-order-alert.png
+│       ├── 03-bot-monitoring-alerts.png
+│       └── 04-live-terminal-dashboard.png
 ├── src/
 │   ├── multi_paper_bot_ws.py
 │   ├── multi_live_bot_ws.py
