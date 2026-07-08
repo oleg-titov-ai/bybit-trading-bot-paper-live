@@ -12,3 +12,4 @@
 - Improve startup checks.
 - Keep live mode separate.
 - Keep trading examples in paper mode first.
+- Next pass: document safe paper-run verification.
