@@ -11,3 +11,4 @@
 - Add risk-rule tests.
 - Improve startup checks.
 - Keep live mode separate.
+- Keep trading examples in paper mode first.
