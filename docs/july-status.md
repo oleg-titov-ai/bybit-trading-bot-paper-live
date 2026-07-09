@@ -14,3 +14,4 @@
 - Keep trading examples in paper mode first.
 - Next pass: document safe paper-run verification.
 - Evening pass: clarify the difference between paper checks and live execution.
+- Morning pass: keep local verification notes easy to review.
