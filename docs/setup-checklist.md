@@ -20,6 +20,7 @@ Use this checklist to configure the bot safely.
 - [ ] Avoid withdrawal permissions.
 - [ ] Store API key and secret only in local `.env`.
 - [ ] Rotate keys if they are exposed.
+- [ ] Revoke unused API keys after testing.
 
 ---
 
