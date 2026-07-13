@@ -10,6 +10,7 @@ Use this checklist to configure the bot safely.
 - [ ] Keep `.env` outside GitHub.
 - [ ] Set `TRADING_MODE=paper` first.
 - [ ] Use `BYBIT_TESTNET=true` during testing.
+- [ ] Confirm the host clock is synchronized before connecting to the exchange.
 
 ---
 
