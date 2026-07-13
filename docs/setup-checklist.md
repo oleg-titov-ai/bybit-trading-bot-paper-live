@@ -43,6 +43,7 @@ Use this checklist to configure the bot safely.
 - [ ] Confirm risk checks.
 - [ ] Confirm demo trade logging.
 - [ ] Review `data/paper_trades_demo.csv`.
+- [ ] Restart the bot and verify that duplicate demo orders are not created.
 
 ---
 
