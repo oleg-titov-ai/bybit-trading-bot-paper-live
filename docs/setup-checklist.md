@@ -47,6 +47,7 @@ Use this checklist to configure the bot safely.
 - [ ] Restart the bot and verify that duplicate demo orders are not created.
 - [ ] Stop the bot gracefully and confirm the final state is written before exit.
 - [ ] Confirm long-running paper logs have a documented rotation or cleanup plan.
+- [ ] Confirm log growth cannot exhaust available disk space during an extended paper run.
 - [ ] Simulate a brief network interruption and verify safe reconnection behavior.
 
 ---
