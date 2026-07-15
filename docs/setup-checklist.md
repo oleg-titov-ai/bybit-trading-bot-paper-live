@@ -49,6 +49,7 @@ Use this checklist to configure the bot safely.
 - [ ] Confirm long-running paper logs have a documented rotation or cleanup plan.
 - [ ] Confirm log growth cannot exhaust available disk space during an extended paper run.
 - [ ] Simulate a brief network interruption and verify safe reconnection behavior.
+- [ ] Verify stale market data cannot trigger a new paper or live order.
 
 ---
 
