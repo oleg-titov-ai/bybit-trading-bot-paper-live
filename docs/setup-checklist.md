@@ -58,6 +58,7 @@ Use this checklist to configure the bot safely.
 - [ ] Test on Bybit testnet first.
 - [ ] Use tiny order size.
 - [ ] Confirm order placement manually.
+- [ ] Reconcile each testnet order with the exchange order history before enabling live mode.
 - [ ] Require an explicit startup confirmation before enabling live order submission.
 - [ ] Confirm stop conditions.
 - [ ] Confirm daily loss limit.
