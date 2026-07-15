@@ -58,6 +58,7 @@ Use this checklist to configure the bot safely.
 - [ ] Test on Bybit testnet first.
 - [ ] Use tiny order size.
 - [ ] Confirm order placement manually.
+- [ ] Require an explicit startup confirmation before enabling live order submission.
 - [ ] Confirm stop conditions.
 - [ ] Confirm daily loss limit.
 - [ ] Monitor bot while running.
