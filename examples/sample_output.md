@@ -16,3 +16,5 @@ Example terminal output from paper trading mode.
 ```
 
 No real balances, real API keys, real order IDs, or real account IDs are shown here.
+
+The values above are static demo data and are not intended to reproduce live market conditions.
