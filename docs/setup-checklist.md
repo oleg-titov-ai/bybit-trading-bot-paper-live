@@ -51,6 +51,7 @@ Use this checklist to configure the bot safely.
 - [ ] Simulate a brief network interruption and verify safe reconnection behavior.
 - [ ] Verify stale market data cannot trigger a new paper or live order.
 - [ ] Verify paper mode never calls an authenticated order-submission endpoint.
+- [ ] Confirm repeated processing of the same signal cannot create duplicate client order IDs.
 
 ---
 
