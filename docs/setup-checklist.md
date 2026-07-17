@@ -23,6 +23,7 @@ Use this checklist to configure the bot safely.
 - [ ] Rotate keys if they are exposed.
 - [ ] Revoke unused API keys after testing.
 - [ ] Recheck API permissions before every live-mode test.
+- [ ] Review exchange maintenance notices before scheduling an unattended test run.
 
 ---
 
