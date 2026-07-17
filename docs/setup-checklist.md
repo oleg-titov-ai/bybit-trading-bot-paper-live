@@ -63,6 +63,7 @@ Use this checklist to configure the bot safely.
 - [ ] Confirm order placement manually.
 - [ ] Reconcile each testnet order with the exchange order history before enabling live mode.
 - [ ] Require an explicit startup confirmation before enabling live order submission.
+- [ ] Verify exit orders are reduce-only and cannot accidentally increase an open position.
 - [ ] Confirm stop conditions.
 - [ ] Confirm daily loss limit.
 - [ ] Monitor bot while running.
