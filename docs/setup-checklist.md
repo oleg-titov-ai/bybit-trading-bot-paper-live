@@ -36,6 +36,7 @@ Use this checklist to configure the bot safely.
 - [ ] Disable symbols that are not being tested.
 - [ ] Validate the JSON configuration before starting the bot.
 - [ ] Record a non-sensitive startup snapshot of enabled symbols and risk limits for troubleshooting.
+- [ ] Confirm every configured symbol is currently tradable on the selected Bybit environment.
 
 ---
 
