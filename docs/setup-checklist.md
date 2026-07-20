@@ -70,6 +70,7 @@ Use this checklist to configure the bot safely.
 - [ ] Verify exit orders are reduce-only and cannot accidentally increase an open position.
 - [ ] Confirm an order is treated as accepted only after an exchange acknowledgement is received.
 - [ ] Confirm rejected orders are logged clearly and never recorded as open positions.
+- [ ] Confirm local open-order state matches the exchange after reconnecting.
 - [ ] Confirm stop conditions.
 - [ ] Confirm daily loss limit.
 - [ ] Monitor bot while running.
