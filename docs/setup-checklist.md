@@ -72,6 +72,7 @@ Use this checklist to configure the bot safely.
 - [ ] Confirm an order is treated as accepted only after an exchange acknowledgement is received.
 - [ ] Confirm rejected orders are logged clearly and never recorded as open positions.
 - [ ] Confirm local open-order state matches the exchange after reconnecting.
+- [ ] Confirm terminal order states are not overwritten by delayed WebSocket updates.
 - [ ] Confirm stop conditions.
 - [ ] Confirm daily loss limit.
 - [ ] Monitor bot while running.
