@@ -76,6 +76,7 @@ Use this checklist to configure the bot safely.
 - [ ] Confirm terminal order states are not overwritten by delayed WebSocket updates.
 - [ ] Reconcile local position state with the exchange before resuming order submission after any restart.
 - [ ] Verify partial fills update local quantity and remaining-order state before another order is submitted.
+- [ ] Confirm the exchange system status is healthy before switching from paper to live mode.
 - [ ] Confirm stop conditions.
 - [ ] Confirm daily loss limit.
 - [ ] Monitor bot while running.
