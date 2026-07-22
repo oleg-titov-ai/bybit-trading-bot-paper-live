@@ -59,6 +59,7 @@ Use this checklist to configure the bot safely.
 - [ ] Verify paper mode never calls an authenticated order-submission endpoint.
 - [ ] Confirm repeated processing of the same signal cannot create duplicate client order IDs.
 - [ ] Confirm logged order timestamps are monotonic and use one documented timezone.
+- [ ] Confirm a clean paper run exits with no unresolved local orders.
 
 ---
 
