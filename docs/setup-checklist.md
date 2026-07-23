@@ -25,6 +25,7 @@ Use this checklist to configure the bot safely.
 - [ ] Revoke unused API keys after testing.
 - [ ] Recheck API permissions before every live-mode test.
 - [ ] Review exchange maintenance notices before scheduling an unattended test run.
+- [ ] Confirm API credentials and endpoints belong to the same testnet or mainnet environment.
 
 ---
 
