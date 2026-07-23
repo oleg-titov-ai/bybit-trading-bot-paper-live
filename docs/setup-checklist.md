@@ -81,6 +81,7 @@ Use this checklist to configure the bot safely.
 - [ ] Verify partial fills update local quantity and remaining-order state before another order is submitted.
 - [ ] Confirm the exchange system status is healthy before switching from paper to live mode.
 - [ ] Validate client order IDs against the exchange length and character rules before submission.
+- [ ] After an order-request timeout, query exchange state before deciding whether to retry.
 - [ ] Confirm stop conditions.
 - [ ] Confirm daily loss limit.
 - [ ] Monitor bot while running.
