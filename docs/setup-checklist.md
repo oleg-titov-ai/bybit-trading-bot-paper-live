@@ -39,6 +39,7 @@ Use this checklist to configure the bot safely.
 - [ ] Record a non-sensitive startup snapshot of enabled symbols and risk limits for troubleshooting.
 - [ ] Confirm every configured symbol is currently tradable on the selected Bybit environment.
 - [ ] Verify configured leverage matches the intended test setting before enabling order submission.
+- [ ] Validate configured quantity and notional against the exchange minimums before submitting an order.
 
 ---
 
