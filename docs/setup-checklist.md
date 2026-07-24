@@ -83,6 +83,7 @@ Use this checklist to configure the bot safely.
 - [ ] Confirm the exchange system status is healthy before switching from paper to live mode.
 - [ ] Validate client order IDs against the exchange length and character rules before submission.
 - [ ] After an order-request timeout, query exchange state before deciding whether to retry.
+- [ ] Confirm all testnet orders are cancelled or closed before ending the test session.
 - [ ] Confirm stop conditions.
 - [ ] Confirm daily loss limit.
 - [ ] Monitor bot while running.
