@@ -85,6 +85,7 @@ Use this checklist to configure the bot safely.
 - [ ] After an order-request timeout, query exchange state before deciding whether to retry.
 - [ ] Confirm all testnet orders are cancelled or closed before ending the test session.
 - [ ] Reject local position data older than the latest successful exchange reconciliation.
+- [ ] Confirm the latest executable price is within the documented freshness window before order submission.
 - [ ] Confirm stop conditions.
 - [ ] Confirm daily loss limit.
 - [ ] Monitor bot while running.
