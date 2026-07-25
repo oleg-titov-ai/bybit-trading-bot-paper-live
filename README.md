@@ -176,4 +176,4 @@ Python Bybit trading bot with paper trading, WebSocket market data, risk control
 **Russian:**  
 Python-бот для торговли на Bybit с paper trading, WebSocket-данными, риск-контролем и опциональным live-режимом.
 
-Maintenance note: confirm paper-mode logs contain no production account identifiers before publishing screenshots.
+Maintenance note: verify rejected orders are clearly recorded as rejected and never counted as open positions.
