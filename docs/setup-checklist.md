@@ -88,6 +88,7 @@ Use this checklist to configure the bot safely.
 - [ ] Confirm the latest executable price is within the documented freshness window before order submission.
 - [ ] Refresh account balance immediately before calculating a live order size so stale balance data cannot exceed risk limits.
 - [ ] Reconcile open orders as well as positions before resuming live order submission after a restart.
+- [ ] Confirm API rate-limit responses pause order submission rather than triggering immediate retries.
 - [ ] Confirm stop conditions.
 - [ ] Confirm daily loss limit.
 - [ ] Monitor bot while running.
