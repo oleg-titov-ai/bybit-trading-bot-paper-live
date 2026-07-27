@@ -179,3 +179,5 @@ Python-бот для торговли на Bybit с paper trading, WebSocket-д�
 Maintenance note: verify rejected orders are clearly recorded as rejected and never counted as open positions.
 
 Maintenance note: confirm paper-mode logs never contain live account identifiers before publishing examples.
+
+Maintenance note: confirm the configured symbol list is reviewed before every live-mode session.
