@@ -48,6 +48,7 @@ balance*.json
 orders*.json
 positions*.json
 wallet*.json
+*.sqlite3
 
 # OS / editor
 .DS_Store
