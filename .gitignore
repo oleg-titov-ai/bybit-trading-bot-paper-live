@@ -24,6 +24,7 @@ htmlcov/
 .ipynb_checkpoints/
 .pytype/
 .cache/
+*.prof
 
 # Virtual environments
 .venv/
