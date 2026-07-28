@@ -22,6 +22,7 @@ htmlcov/
 .hypothesis/
 .tox/
 .ipynb_checkpoints/
+.pytype/
 
 # Virtual environments
 .venv/
