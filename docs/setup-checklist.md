@@ -12,6 +12,7 @@ Use this checklist to configure the bot safely.
 - [ ] Use `BYBIT_TESTNET=true` during testing.
 - [ ] Confirm the host clock is synchronized before connecting to the exchange.
 - [ ] Verify exchange timestamp errors are handled without retrying orders blindly.
+- [ ] Print and review the selected trading mode and environment at startup without exposing credentials.
 
 ---
 
