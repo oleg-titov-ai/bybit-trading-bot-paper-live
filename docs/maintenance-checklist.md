@@ -11,3 +11,5 @@ Verify startup fails closed when required live-trading credentials are missing o
 Confirm the host clock is synchronized before testing timestamp-sensitive exchange requests.
 
 Verify stale market data is rejected before order calculations so delayed feeds cannot trigger unintended decisions.
+
+Confirm paper and live modes use separate state files or databases so test positions cannot leak into a live session.
