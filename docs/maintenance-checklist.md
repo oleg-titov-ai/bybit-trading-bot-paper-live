@@ -7,3 +7,5 @@ After a controlled shutdown, confirm open-position state and the last processed 
 Run a paper-mode smoke test after dependency updates and confirm order sizing, precision, and rate-limit handling remain unchanged.
 
 Verify startup fails closed when required live-trading credentials are missing or still set to placeholders.
+
+Confirm the host clock is synchronized before testing timestamp-sensitive exchange requests.
