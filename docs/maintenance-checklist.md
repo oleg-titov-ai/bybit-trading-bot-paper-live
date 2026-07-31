@@ -15,3 +15,5 @@ Verify stale market data is rejected before order calculations so delayed feeds 
 Confirm paper and live modes use separate state files or databases so test positions cannot leak into a live session.
 
 Validate the resolved configuration in a dry run before live mode, showing symbols and limits while redacting all credentials.
+
+Review one recent log sample to confirm API keys, signatures, and account identifiers are consistently redacted.
