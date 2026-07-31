@@ -19,3 +19,5 @@ Validate the resolved configuration in a dry run before live mode, showing symbo
 Review one recent log sample to confirm API keys, signatures, and account identifiers are consistently redacted.
 
 Confirm controlled shutdown logs clearly state whether state persistence completed successfully before the process exits.
+
+Verify paper-mode startup rejects unsupported symbols before any market-data subscription is opened.
