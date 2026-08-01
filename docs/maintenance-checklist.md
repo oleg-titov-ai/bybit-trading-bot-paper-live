@@ -21,3 +21,5 @@ Review one recent log sample to confirm API keys, signatures, and account identi
 Confirm controlled shutdown logs clearly state whether state persistence completed successfully before the process exits.
 
 Verify paper-mode startup rejects unsupported symbols before any market-data subscription is opened.
+
+Confirm reconnect logic restores subscriptions without submitting duplicate orders from replayed events.
