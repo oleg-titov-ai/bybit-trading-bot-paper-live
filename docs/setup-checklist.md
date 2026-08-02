@@ -93,6 +93,7 @@ Use this checklist to configure the bot safely.
 - [ ] Confirm API rate-limit responses pause order submission rather than triggering immediate retries.
 - [ ] Confirm every locally generated live order has a matching exchange-side status before the session is considered clean.
 - [ ] Confirm each live-order audit entry records symbol, side, quantity, status, and timestamp without API credentials.
+- [ ] Confirm the REST and WebSocket endpoints both match the selected testnet or mainnet environment before enabling orders.
 - [ ] Confirm stop conditions.
 - [ ] Confirm daily loss limit.
 - [ ] Monitor bot while running.
