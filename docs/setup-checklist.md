@@ -92,6 +92,7 @@ Use this checklist to configure the bot safely.
 - [ ] Reconcile open orders as well as positions before resuming live order submission after a restart.
 - [ ] Confirm API rate-limit responses pause order submission rather than triggering immediate retries.
 - [ ] Confirm every locally generated live order has a matching exchange-side status before the session is considered clean.
+- [ ] Confirm each live-order audit entry records symbol, side, quantity, status, and timestamp without API credentials.
 - [ ] Confirm stop conditions.
 - [ ] Confirm daily loss limit.
 - [ ] Monitor bot while running.
