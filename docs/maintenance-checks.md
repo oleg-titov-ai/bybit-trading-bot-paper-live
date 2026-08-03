@@ -7,3 +7,4 @@ Before testing:
 - Verify reconnects restore state without duplicate actions.
 - Ensure example logs and screenshots contain no private identifiers or secrets.
 - Confirm startup fails safely when required market metadata is unavailable.
+- Verify system clock drift is detected before authenticated requests are enabled.
