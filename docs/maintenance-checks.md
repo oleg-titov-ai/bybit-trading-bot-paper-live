@@ -11,3 +11,4 @@ Before testing:
 - Confirm a controlled shutdown persists only the minimum state needed for a safe restart.
 - Recheck configured order limits after any symbol or account-mode change.
 - Validate the configuration file before startup and reject unknown or misspelled keys.
+- Confirm paper mode is the documented default for fresh local setups.
