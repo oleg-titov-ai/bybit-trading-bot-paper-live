@@ -13,3 +13,4 @@ Before testing:
 - Validate the configuration file before startup and reject unknown or misspelled keys.
 - Confirm paper mode is the documented default for fresh local setups.
 - Review and clear stale test orders before starting a new paper session.
+- Confirm dry-run output clearly identifies the selected environment before any order logic starts.
