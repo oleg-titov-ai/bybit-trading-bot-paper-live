@@ -51,6 +51,7 @@ balance*.json
 orders*.json
 positions*.json
 wallet*.json
+backtest-results/
 *.sqlite3
 
 # OS / editor
