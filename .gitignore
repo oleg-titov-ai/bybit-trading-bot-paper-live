@@ -36,6 +36,7 @@ ENV/
 *.log
 logs/
 strategy-diagnostics/
+risk-review-reports/
 
 # Private data
 private/
