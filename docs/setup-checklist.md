@@ -43,6 +43,7 @@ Use this checklist to configure the bot safely.
 - [ ] Verify configured leverage matches the intended test setting before enabling order submission.
 - [ ] Validate configured quantity and notional against the exchange minimums before submitting an order.
 - [ ] Confirm configured price and quantity precision match the current exchange instrument rules.
+- [ ] Record a checksum of the non-secret symbol configuration used for each test session.
 
 ---
 
