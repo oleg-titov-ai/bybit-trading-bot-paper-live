@@ -50,6 +50,7 @@ Start with:
 5. Strict daily loss limits.
 6. Manual monitoring.
 7. Logs reviewed after every session.
+8. Reconcile current balances, positions, and open orders before enabling live order submission.
 
 ---
 
