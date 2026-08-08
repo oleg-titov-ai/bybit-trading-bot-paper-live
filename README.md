@@ -183,3 +183,5 @@ Maintenance note: confirm paper-mode logs never contain live account identifiers
 Maintenance note: confirm the configured symbol list is reviewed before every live-mode session.
 
 Maintenance note: verify WebSocket reconnects restore subscriptions without duplicating local position state.
+
+Maintenance note: verify system clock synchronization before live-mode sessions so signed API requests use valid timestamps.
