@@ -44,6 +44,7 @@ Use this checklist to configure the bot safely.
 - [ ] Validate configured quantity and notional against the exchange minimums before submitting an order.
 - [ ] Confirm configured price and quantity precision match the current exchange instrument rules.
 - [ ] Record a checksum of the non-secret symbol configuration used for each test session.
+- [ ] Review the effective non-secret configuration diff before switching from paper to live mode.
 
 ---
 
