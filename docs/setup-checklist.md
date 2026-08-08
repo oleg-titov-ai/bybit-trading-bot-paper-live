@@ -97,6 +97,7 @@ Use this checklist to configure the bot safely.
 - [ ] Confirm each live-order audit entry records symbol, side, quantity, status, and timestamp without API credentials.
 - [ ] Confirm the REST and WebSocket endpoints both match the selected testnet or mainnet environment before enabling orders.
 - [ ] Confirm available balance is rechecked after any manual account activity during a live session.
+- [ ] Confirm current market status and instrument availability immediately before enabling live order submission.
 - [ ] Confirm stop conditions.
 - [ ] Confirm daily loss limit.
 - [ ] Monitor bot while running.
