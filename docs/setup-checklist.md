@@ -99,6 +99,7 @@ Use this checklist to configure the bot safely.
 - [ ] Confirm the REST and WebSocket endpoints both match the selected testnet or mainnet environment before enabling orders.
 - [ ] Confirm available balance is rechecked after any manual account activity during a live session.
 - [ ] Confirm current market status and instrument availability immediately before enabling live order submission.
+- [ ] Confirm calculated order quantity is rounded to the exchange step size before final risk validation.
 - [ ] Confirm stop conditions.
 - [ ] Confirm daily loss limit.
 - [ ] Monitor bot while running.
