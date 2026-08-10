@@ -185,3 +185,5 @@ Maintenance note: confirm the configured symbol list is reviewed before every li
 Maintenance note: verify WebSocket reconnects restore subscriptions without duplicating local position state.
 
 Maintenance note: verify system clock synchronization before live-mode sessions so signed API requests use valid timestamps.
+
+Maintenance note: confirm live mode cannot start when required risk-limit configuration is missing or invalid.
