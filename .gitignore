@@ -37,6 +37,7 @@ ENV/
 logs/
 strategy-diagnostics/
 risk-review-reports/
+exchange-response-captures/
 
 # Private data
 private/
