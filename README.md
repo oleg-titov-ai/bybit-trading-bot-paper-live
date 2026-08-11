@@ -187,3 +187,5 @@ Maintenance note: verify WebSocket reconnects restore subscriptions without dupl
 Maintenance note: verify system clock synchronization before live-mode sessions so signed API requests use valid timestamps.
 
 Maintenance note: confirm live mode cannot start when required risk-limit configuration is missing or invalid.
+
+Maintenance note: keep paper and live trade logs clearly separated so demo results cannot be mistaken for real-account activity.
