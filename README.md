@@ -189,3 +189,5 @@ Maintenance note: verify system clock synchronization before live-mode sessions 
 Maintenance note: confirm live mode cannot start when required risk-limit configuration is missing or invalid.
 
 Maintenance note: keep paper and live trade logs clearly separated so demo results cannot be mistaken for real-account activity.
+
+Maintenance note: review live-session logs for unexpected retries or duplicate order attempts before the next run.
