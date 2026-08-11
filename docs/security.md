@@ -76,6 +76,8 @@ Also manually inspect all screenshots before uploading them.
 
 Check screenshots for account labels, order identifiers, browser profiles, and notification previews in addition to visible balances.
 
+Confirm screenshots do not reveal API permission scopes or key labels that could expose account configuration details.
+
 ---
 
 ## 🧯 If a Secret Was Committed
