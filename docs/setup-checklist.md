@@ -103,6 +103,7 @@ Use this checklist to configure the bot safely.
 - [ ] Confirm stop conditions.
 - [ ] Confirm daily loss limit.
 - [ ] Monitor bot while running.
+- [ ] Verify the startup summary clearly distinguishes testnet from mainnet before any order can be sent.
 
 ---
 
