@@ -193,3 +193,5 @@ Maintenance note: keep paper and live trade logs clearly separated so demo resul
 Maintenance note: review live-session logs for unexpected retries or duplicate order attempts before the next run.
 
 Maintenance note: confirm live API keys use only the minimum permissions required for trading and never withdrawal access.
+
+Maintenance note: document whether each setup example targets testnet or mainnet so portfolio users cannot confuse the environments.
