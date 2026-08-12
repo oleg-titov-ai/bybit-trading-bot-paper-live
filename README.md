@@ -191,3 +191,5 @@ Maintenance note: confirm live mode cannot start when required risk-limit config
 Maintenance note: keep paper and live trade logs clearly separated so demo results cannot be mistaken for real-account activity.
 
 Maintenance note: review live-session logs for unexpected retries or duplicate order attempts before the next run.
+
+Maintenance note: confirm live API keys use only the minimum permissions required for trading and never withdrawal access.
