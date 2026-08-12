@@ -195,3 +195,5 @@ Maintenance note: review live-session logs for unexpected retries or duplicate o
 Maintenance note: confirm live API keys use only the minimum permissions required for trading and never withdrawal access.
 
 Maintenance note: document whether each setup example targets testnet or mainnet so portfolio users cannot confuse the environments.
+
+Maintenance note: confirm portfolio screenshots never expose live balances, wallet values, or account identifiers.
