@@ -61,3 +61,6 @@ backtest-results/
 .DS_Store
 .idea/
 .vscode/
+
+# Local session summaries
+session-summary-reports/
