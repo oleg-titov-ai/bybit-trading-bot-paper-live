@@ -197,3 +197,5 @@ Maintenance note: confirm live API keys use only the minimum permissions require
 Maintenance note: document whether each setup example targets testnet or mainnet so portfolio users cannot confuse the environments.
 
 Maintenance note: confirm portfolio screenshots never expose live balances, wallet values, or account identifiers.
+
+Maintenance note: reject non-finite or negative numeric risk settings during config loading before paper or live execution begins.
