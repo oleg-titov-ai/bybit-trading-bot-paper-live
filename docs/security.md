@@ -80,6 +80,8 @@ Confirm screenshots do not reveal API permission scopes or key labels that could
 
 Review demo log excerpts for exchange-generated identifiers before copying them into documentation or screenshots.
 
+Confirm public log examples omit request signatures, timestamps tied to private sessions, and exchange-generated account metadata.
+
 ---
 
 ## 🧯 If a Secret Was Committed
