@@ -45,6 +45,7 @@ Use this checklist to configure the bot safely.
 - [ ] Confirm configured price and quantity precision match the current exchange instrument rules.
 - [ ] Record a checksum of the non-secret symbol configuration used for each test session.
 - [ ] Review the effective non-secret configuration diff before switching from paper to live mode.
+- [ ] Refresh instrument filters from the exchange before a live session instead of relying on stale cached limits.
 
 ---
 
