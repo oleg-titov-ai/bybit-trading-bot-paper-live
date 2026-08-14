@@ -78,6 +78,8 @@ Check screenshots for account labels, order identifiers, browser profiles, and n
 
 Confirm screenshots do not reveal API permission scopes or key labels that could expose account configuration details.
 
+Review demo log excerpts for exchange-generated identifiers before copying them into documentation or screenshots.
+
 ---
 
 ## 🧯 If a Secret Was Committed
