@@ -108,6 +108,7 @@ Use this checklist to configure the bot safely.
 - [ ] Monitor bot while running.
 - [ ] Verify the startup summary clearly distinguishes testnet from mainnet before any order can be sent.
 - [ ] Verify the startup summary matches the reviewed symbols, leverage, and risk limits before confirming live mode.
+- [ ] End each live or testnet session only after local open orders and positions reconcile to the exchange state.
 
 ---
 
