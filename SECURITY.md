@@ -27,3 +27,5 @@ If you find a security problem in this repository, open a GitHub issue with a sa
 ## Trading Safety
 
 This project does not provide financial advice. Paper trading should remain the default mode. Live mode should require explicit local configuration and careful review.
+
+Before sharing logs or screenshots, confirm exchange environment labels are clear and all account-specific identifiers are removed.
