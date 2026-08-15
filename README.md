@@ -199,3 +199,5 @@ Maintenance note: document whether each setup example targets testnet or mainnet
 Maintenance note: confirm portfolio screenshots never expose live balances, wallet values, or account identifiers.
 
 Maintenance note: reject non-finite or negative numeric risk settings during config loading before paper or live execution begins.
+
+Maintenance note: capture a sanitized risk-configuration snapshot before each live session so later log review can verify the intended limits.
