@@ -102,6 +102,7 @@ Use this checklist to configure the bot safely.
 - [ ] Confirm current market status and instrument availability immediately before enabling live order submission.
 - [ ] Confirm calculated order quantity is rounded to the exchange step size before final risk validation.
 - [ ] Confirm a zero or below-minimum post-rounding quantity is rejected before order submission.
+- [ ] Reject a live order if the balance snapshot is older than the documented freshness threshold.
 - [ ] Confirm stop conditions.
 - [ ] Confirm daily loss limit.
 - [ ] Monitor bot while running.
