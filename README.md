@@ -201,3 +201,5 @@ Maintenance note: confirm portfolio screenshots never expose live balances, wall
 Maintenance note: reject non-finite or negative numeric risk settings during config loading before paper or live execution begins.
 
 Maintenance note: capture a sanitized risk-configuration snapshot before each live session so later log review can verify the intended limits.
+
+Maintenance note: verify the exchange-reported position state matches local state before enabling a new live session after restart.
