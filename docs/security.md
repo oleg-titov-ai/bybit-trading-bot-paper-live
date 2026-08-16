@@ -82,6 +82,8 @@ Review demo log excerpts for exchange-generated identifiers before copying them 
 
 Confirm public log examples omit request signatures, timestamps tied to private sessions, and exchange-generated account metadata.
 
+Confirm example risk-configuration snapshots use synthetic balances, position sizes, and order identifiers before publication.
+
 ---
 
 ## 🧯 If a Secret Was Committed
