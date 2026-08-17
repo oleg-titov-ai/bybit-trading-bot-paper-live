@@ -203,3 +203,5 @@ Maintenance note: reject non-finite or negative numeric risk settings during con
 Maintenance note: capture a sanitized risk-configuration snapshot before each live session so later log review can verify the intended limits.
 
 Maintenance note: verify the exchange-reported position state matches local state before enabling a new live session after restart.
+
+Maintenance note: record a non-sensitive configuration fingerprint for each live session so later logs can be matched to the reviewed settings without storing secrets.
