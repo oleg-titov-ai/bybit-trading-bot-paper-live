@@ -111,6 +111,7 @@ Use this checklist to configure the bot safely.
 - [ ] End each live or testnet session only after local open orders and positions reconcile to the exchange state.
 - [ ] Record a clean-session marker only after open orders, positions, and balance all reconcile successfully with the exchange.
 - [ ] Confirm the clean-session marker is invalidated if exchange state changes before the next live start.
+- [ ] Require a fresh exchange reconciliation when any local order-state timestamp predates the latest account-state update.
 
 ---
 
