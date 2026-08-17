@@ -84,6 +84,8 @@ Confirm public log examples omit request signatures, timestamps tied to private 
 
 Confirm example risk-configuration snapshots use synthetic balances, position sizes, and order identifiers before publication.
 
+Confirm any exported session summary is sanitized independently before it is attached to a portfolio release.
+
 ---
 
 ## 🧯 If a Secret Was Committed
