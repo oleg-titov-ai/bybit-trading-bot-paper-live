@@ -110,6 +110,7 @@ Use this checklist to configure the bot safely.
 - [ ] Verify the startup summary matches the reviewed symbols, leverage, and risk limits before confirming live mode.
 - [ ] End each live or testnet session only after local open orders and positions reconcile to the exchange state.
 - [ ] Record a clean-session marker only after open orders, positions, and balance all reconcile successfully with the exchange.
+- [ ] Confirm the clean-session marker is invalidated if exchange state changes before the next live start.
 
 ---
 
