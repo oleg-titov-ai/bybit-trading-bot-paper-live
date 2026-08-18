@@ -39,6 +39,7 @@ strategy-diagnostics/
 risk-review-reports/
 exchange-response-captures/
 order-validation-reports/
+reconciliation-snapshots/
 
 # Private data
 private/
