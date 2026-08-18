@@ -205,3 +205,5 @@ Maintenance note: capture a sanitized risk-configuration snapshot before each li
 Maintenance note: verify the exchange-reported position state matches local state before enabling a new live session after restart.
 
 Maintenance note: record a non-sensitive configuration fingerprint for each live session so later logs can be matched to the reviewed settings without storing secrets.
+
+Maintenance note: require a fresh reconciliation of open orders and positions immediately before switching from paper mode to live execution.
