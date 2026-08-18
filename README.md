@@ -209,3 +209,5 @@ Maintenance note: record a non-sensitive configuration fingerprint for each live
 Maintenance note: require a fresh reconciliation of open orders and positions immediately before switching from paper mode to live execution.
 
 Maintenance note: invalidate any prior live-session readiness marker if symbol, leverage, or risk settings change after reconciliation.
+
+Maintenance note: expire live-session readiness after a short documented interval so a stale reconciliation cannot authorize later execution.
