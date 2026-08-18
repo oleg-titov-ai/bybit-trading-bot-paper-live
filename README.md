@@ -207,3 +207,5 @@ Maintenance note: verify the exchange-reported position state matches local stat
 Maintenance note: record a non-sensitive configuration fingerprint for each live session so later logs can be matched to the reviewed settings without storing secrets.
 
 Maintenance note: require a fresh reconciliation of open orders and positions immediately before switching from paper mode to live execution.
+
+Maintenance note: invalidate any prior live-session readiness marker if symbol, leverage, or risk settings change after reconciliation.
