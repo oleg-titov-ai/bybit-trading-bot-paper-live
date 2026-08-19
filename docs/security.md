@@ -86,6 +86,8 @@ Confirm example risk-configuration snapshots use synthetic balances, position si
 
 Confirm any exported session summary is sanitized independently before it is attached to a portfolio release.
 
+Delete local unsanitized session exports after review instead of keeping them beside portfolio artifacts.
+
 ---
 
 ## 🧯 If a Secret Was Committed
