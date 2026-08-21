@@ -7,3 +7,4 @@
 - 2026-08-20: Revalidate documented quantity and price precision against current exchange instrument filters after API or dependency updates before relying on live order sizing.
 - 2026-08-21: Verify order-validation errors redact request signatures and account-specific fields before they are written to logs or screenshots.
 - 2026-08-21: Expire any previously recorded live-readiness result after a restart or reconnect so the next live action requires a fresh non-sensitive validation pass.
+- 2026-08-21: Verify a rejected or cancelled paper order cannot leave stale readiness state that would later be reused for a live submission.
