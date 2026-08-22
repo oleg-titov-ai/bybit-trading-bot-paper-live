@@ -9,3 +9,4 @@
 - 2026-08-21: Expire any previously recorded live-readiness result after a restart or reconnect so the next live action requires a fresh non-sensitive validation pass.
 - 2026-08-21: Verify a rejected or cancelled paper order cannot leave stale readiness state that would later be reused for a live submission.
 - 2026-08-21: Keep the documented emergency-stop behavior explicit: disabling live mode should block new submissions without exposing credentials or account-specific state in logs.
+- 2026-08-22: Recheck the documented paper-mode default after configuration changes so a fresh clone cannot enter live mode without an explicit, separately validated opt-in.
