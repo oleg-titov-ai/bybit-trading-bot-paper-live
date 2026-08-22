@@ -12,3 +12,4 @@
 - 2026-08-22: Recheck the documented paper-mode default after configuration changes so a fresh clone cannot enter live mode without an explicit, separately validated opt-in.
 - 2026-08-22: Keep the public live-mode checklist limited to configuration structure and validation steps; do not include real balances, positions, order IDs, or account-specific screenshots.
 - 2026-08-22: After any exchange reconnect, require a fresh documented validation of symbol metadata and open-order state before considering the live-session checklist current again.
+- 2026-08-22: Verify system clock drift is within the exchange API tolerance before live authentication checks so timestamp errors cannot be mistaken for credential or order failures.
