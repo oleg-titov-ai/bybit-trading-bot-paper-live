@@ -13,3 +13,4 @@
 - 2026-08-22: Keep the public live-mode checklist limited to configuration structure and validation steps; do not include real balances, positions, order IDs, or account-specific screenshots.
 - 2026-08-22: After any exchange reconnect, require a fresh documented validation of symbol metadata and open-order state before considering the live-session checklist current again.
 - 2026-08-22: Verify system clock drift is within the exchange API tolerance before live authentication checks so timestamp errors cannot be mistaken for credential or order failures.
+- 2026-08-23: Keep one paper-mode verification case for minimum-order rejection so sizing changes can be reviewed safely without creating or documenting any live account activity.
