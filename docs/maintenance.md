@@ -16,3 +16,4 @@
 - 2026-08-23: Keep one paper-mode verification case for minimum-order rejection so sizing changes can be reviewed safely without creating or documenting any live account activity.
 - 2026-08-23: Keep one paper-mode verification case for an unsupported or disabled symbol so validation failures remain safe before any order-submission path is reached.
 - 2026-08-23: Keep paper-mode validation coverage for both invalid sizing and unavailable instruments so future order checks can be reviewed without relying on live-account behavior.
+- 2026-08-23: Re-run the non-sensitive readiness checklist after reconnect or configuration reload so no prior validation result is reused across a changed session state.
