@@ -19,3 +19,4 @@
 - 2026-08-23: Re-run the non-sensitive readiness checklist after reconnect or configuration reload so no prior validation result is reused across a changed session state.
 - 2026-08-24: Verify the documented live-mode opt-in remains false after a configuration parse error or missing risk field, so unsafe defaults cannot be inferred from incomplete settings.
 - 2026-08-24: Keep one paper-mode check for stale market metadata so an outdated instrument snapshot is rejected before order sizing or live readiness is considered valid.
+- 2026-08-24: Invalidate live-readiness after any failed account-state refresh so a transient API error cannot leave an earlier validation result looking current.
