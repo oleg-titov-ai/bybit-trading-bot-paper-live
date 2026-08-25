@@ -23,3 +23,4 @@
 - 2026-08-24: Keep one paper-mode check for a network timeout and verify it fails closed without retrying into live mode or reusing stale readiness state.
 - 2026-08-25: Keep one paper-mode retry check that confirms a transient validation failure never escalates into live submission and that any retry starts from freshly validated, non-sensitive session state.
 - 2026-08-25: Verify a paper-mode restart discards cached validation timestamps and requires a fresh market-metadata check before the next simulated order is evaluated.
+- 2026-08-25: Keep paper-mode retry audit output limited to validation status, instrument symbol, and synthetic attempt number so troubleshooting stays useful without exposing account-specific metadata.
