@@ -21,3 +21,4 @@
 - 2026-08-24: Keep one paper-mode check for stale market metadata so an outdated instrument snapshot is rejected before order sizing or live readiness is considered valid.
 - 2026-08-24: Invalidate live-readiness after any failed account-state refresh so a transient API error cannot leave an earlier validation result looking current.
 - 2026-08-24: Keep one paper-mode check for a network timeout and verify it fails closed without retrying into live mode or reusing stale readiness state.
+- 2026-08-25: Keep one paper-mode retry check that confirms a transient validation failure never escalates into live submission and that any retry starts from freshly validated, non-sensitive session state.
