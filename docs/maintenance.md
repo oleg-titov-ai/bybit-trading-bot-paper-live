@@ -28,3 +28,4 @@
 - 2026-08-26: Keep one paper-mode check for malformed price or quantity strings so parsing fails before risk calculations and never promotes the session toward live readiness.
 - 2026-08-26: Verify a paper-mode validation failure leaves the documented live-readiness flag explicitly false rather than merely absent or stale.
 - 2026-08-26: After a simulated reconnect in paper mode, verify cached instrument metadata and readiness markers are refreshed before the next sizing check is accepted.
+- 2026-08-26: Verify an expired readiness timestamp is rejected explicitly and forces a fresh paper-mode validation rather than silently reusing earlier session state.
