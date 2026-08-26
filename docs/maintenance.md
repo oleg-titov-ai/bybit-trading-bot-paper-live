@@ -25,3 +25,4 @@
 - 2026-08-25: Verify a paper-mode restart discards cached validation timestamps and requires a fresh market-metadata check before the next simulated order is evaluated.
 - 2026-08-25: Keep paper-mode retry audit output limited to validation status, instrument symbol, and synthetic attempt number so troubleshooting stays useful without exposing account-specific metadata.
 - 2026-08-25: Invalidate any documented readiness result when refreshed instrument metadata changes precision, minimum size, or trading status, and require a fresh paper-mode validation before proceeding.
+- 2026-08-26: Keep one paper-mode check for malformed price or quantity strings so parsing fails before risk calculations and never promotes the session toward live readiness.
