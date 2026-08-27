@@ -32,3 +32,4 @@
 - 2026-08-27: Verify changing only a non-trading display/logging option does not accidentally mark live readiness as current; readiness should depend only on freshly validated trading-relevant state.
 - 2026-08-27: Keep readiness timestamps monotonic within a session so an older validation result cannot overwrite a newer paper-mode check after reconnect or retry.
 - 2026-08-27: Record which non-sensitive validation inputs produced the current paper-mode readiness result so reviewers can distinguish fresh instrument checks from cached session state.
+- 2026-08-27: Verify any paper-mode export or screenshot labels the environment clearly enough that portfolio material cannot be mistaken for live trading activity.
