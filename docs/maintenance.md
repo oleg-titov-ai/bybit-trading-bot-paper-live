@@ -30,3 +30,4 @@
 - 2026-08-26: After a simulated reconnect in paper mode, verify cached instrument metadata and readiness markers are refreshed before the next sizing check is accepted.
 - 2026-08-26: Verify an expired readiness timestamp is rejected explicitly and forces a fresh paper-mode validation rather than silently reusing earlier session state.
 - 2026-08-27: Verify changing only a non-trading display/logging option does not accidentally mark live readiness as current; readiness should depend only on freshly validated trading-relevant state.
+- 2026-08-27: Keep readiness timestamps monotonic within a session so an older validation result cannot overwrite a newer paper-mode check after reconnect or retry.
