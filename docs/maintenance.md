@@ -36,3 +36,4 @@
 - 2026-08-28: Verify copied or example configuration can never enable live mode implicitly; live operation should require a distinct explicit opt-in after the current paper-mode readiness checks pass.
 - 2026-08-28: Verify disabling live mode clears any prior opt-in marker and readiness approval so re-enabling always requires a fresh explicit confirmation and validation pass.
 - 2026-08-28: Keep one documented paper-mode startup check that confirms no order-submission path is reachable until current market metadata has been loaded and validated successfully.
+- 2026-08-28: Keep the paper-mode readiness summary limited to symbol, validation status, and check timestamp so portfolio diagnostics remain useful without exposing account-specific state.
