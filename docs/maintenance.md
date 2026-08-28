@@ -34,3 +34,4 @@
 - 2026-08-27: Record which non-sensitive validation inputs produced the current paper-mode readiness result so reviewers can distinguish fresh instrument checks from cached session state.
 - 2026-08-27: Verify any paper-mode export or screenshot labels the environment clearly enough that portfolio material cannot be mistaken for live trading activity.
 - 2026-08-28: Verify copied or example configuration can never enable live mode implicitly; live operation should require a distinct explicit opt-in after the current paper-mode readiness checks pass.
+- 2026-08-28: Verify disabling live mode clears any prior opt-in marker and readiness approval so re-enabling always requires a fresh explicit confirmation and validation pass.
