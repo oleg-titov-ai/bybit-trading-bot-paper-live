@@ -39,3 +39,4 @@
 - 2026-08-28: Keep the paper-mode readiness summary limited to symbol, validation status, and check timestamp so portfolio diagnostics remain useful without exposing account-specific state.
 - 2026-08-29: Keep one paper-mode startup note confirming invalid or missing credentials cannot make the application leave its safe default mode or expose secret values in diagnostics.
 - 2026-08-29: Keep any documented paper-readiness example explicit about its simulated environment so portfolio readers cannot interpret validation status as evidence of live execution.
+- 2026-08-29: Verify paper-mode diagnostics use a generic environment label and omit exchange account aliases so screenshots remain unambiguously simulated and portfolio-safe.
