@@ -44,3 +44,4 @@
 - 2026-08-30: Verify startup remains in paper mode until both configuration parsing and current instrument-metadata validation complete successfully, with no live submission path exposed during partial initialization.
 - 2026-08-30: Keep paper-mode startup diagnostics limited to generic environment, validation stage, and non-sensitive status so initialization failures never expose account or credential metadata.
 - 2026-08-30: Verify a paper-mode validation retry cannot reuse a prior live opt-in marker after any startup or metadata validation failure.
+- 2026-08-30: Keep simulated validation failures labeled with generic reason codes only, so portfolio logs remain useful without exposing exchange responses or account context.
