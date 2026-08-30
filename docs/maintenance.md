@@ -42,3 +42,4 @@
 - 2026-08-29: Verify paper-mode diagnostics use a generic environment label and omit exchange account aliases so screenshots remain unambiguously simulated and portfolio-safe.
 - 2026-08-29: Document paper-mode readiness as a validation result only, not as authorization to trade, so portfolio notes cannot imply that a live submission was attempted or approved.
 - 2026-08-30: Verify startup remains in paper mode until both configuration parsing and current instrument-metadata validation complete successfully, with no live submission path exposed during partial initialization.
+- 2026-08-30: Keep paper-mode startup diagnostics limited to generic environment, validation stage, and non-sensitive status so initialization failures never expose account or credential metadata.
