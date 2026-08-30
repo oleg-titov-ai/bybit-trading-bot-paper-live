@@ -41,3 +41,4 @@
 - 2026-08-29: Keep any documented paper-readiness example explicit about its simulated environment so portfolio readers cannot interpret validation status as evidence of live execution.
 - 2026-08-29: Verify paper-mode diagnostics use a generic environment label and omit exchange account aliases so screenshots remain unambiguously simulated and portfolio-safe.
 - 2026-08-29: Document paper-mode readiness as a validation result only, not as authorization to trade, so portfolio notes cannot imply that a live submission was attempted or approved.
+- 2026-08-30: Verify startup remains in paper mode until both configuration parsing and current instrument-metadata validation complete successfully, with no live submission path exposed during partial initialization.
