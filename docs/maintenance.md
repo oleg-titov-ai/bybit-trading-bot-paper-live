@@ -47,3 +47,4 @@
 - 2026-08-30: Keep simulated validation failures labeled with generic reason codes only, so portfolio logs remain useful without exposing exchange responses or account context.
 - 2026-08-31: Verify paper-mode readiness is invalidated after any local risk-setting change, even when symbol metadata is unchanged, so stale validation cannot cross configuration boundaries.
 - 2026-08-31: Verify a paper-mode dry run records only synthetic order intent and validation status, with no account balance, position, or live order identifiers in portfolio output.
+- 2026-08-31: Verify a clean paper-mode shutdown clears transient readiness and retry markers so the next start cannot inherit authorization-like state from a prior session.
