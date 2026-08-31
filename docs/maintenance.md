@@ -48,3 +48,4 @@
 - 2026-08-31: Verify paper-mode readiness is invalidated after any local risk-setting change, even when symbol metadata is unchanged, so stale validation cannot cross configuration boundaries.
 - 2026-08-31: Verify a paper-mode dry run records only synthetic order intent and validation status, with no account balance, position, or live order identifiers in portfolio output.
 - 2026-08-31: Verify a clean paper-mode shutdown clears transient readiness and retry markers so the next start cannot inherit authorization-like state from a prior session.
+- 2026-08-31: Verify a fresh paper-mode start after shutdown begins with live opt-in false and no cached readiness result before any new validation is performed.
