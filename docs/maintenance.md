@@ -49,3 +49,4 @@
 - 2026-08-31: Verify a paper-mode dry run records only synthetic order intent and validation status, with no account balance, position, or live order identifiers in portfolio output.
 - 2026-08-31: Verify a clean paper-mode shutdown clears transient readiness and retry markers so the next start cannot inherit authorization-like state from a prior session.
 - 2026-08-31: Verify a fresh paper-mode start after shutdown begins with live opt-in false and no cached readiness result before any new validation is performed.
+- 2026-09-01: Verify paper-mode portfolio examples use fixed synthetic quantities and prices so documentation diffs cannot be mistaken for live market or account activity.
