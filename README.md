@@ -213,3 +213,5 @@ Maintenance note: invalidate any prior live-session readiness marker if symbol, 
 Maintenance note: expire live-session readiness after a short documented interval so a stale reconciliation cannot authorize later execution.
 
 Maintenance note: immediately before any live order, confirm the current exchange symbol status is tradable and matches the reconciled configuration.
+
+Maintenance note: verify a paper-mode retry after stale market data starts from a fresh snapshot and cannot inherit a prior readiness result.
