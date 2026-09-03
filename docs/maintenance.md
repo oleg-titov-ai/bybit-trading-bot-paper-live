@@ -51,3 +51,4 @@
 - 2026-08-31: Verify a fresh paper-mode start after shutdown begins with live opt-in false and no cached readiness result before any new validation is performed.
 - 2026-09-01: Verify paper-mode portfolio examples use fixed synthetic quantities and prices so documentation diffs cannot be mistaken for live market or account activity.
 - 2026-09-02: Verify a paper-mode readiness summary is regenerated after instrument metadata refresh and never combines an old validation timestamp with newly loaded symbol rules.
+- 2026-09-03: Verify a paper-mode validation using an unavailable synthetic market snapshot fails closed and leaves live opt-in false with no readiness result carried forward.
