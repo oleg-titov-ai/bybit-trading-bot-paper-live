@@ -54,3 +54,4 @@
 - 2026-09-03: Verify a paper-mode validation using an unavailable synthetic market snapshot fails closed and leaves live opt-in false with no readiness result carried forward.
 - 2026-09-03: Verify cancelling a synthetic paper order clears only that simulated order state and does not alter live opt-in or create a readiness result.
 - 2026-09-03: Verify a paper-mode retry after a simulated order cancellation starts with a fresh synthetic order intent and cannot reuse cancelled-order validation or readiness state.
+- 2026-09-04: Verify a synthetic paper-order timeout fails closed, clears transient simulated order state, and never changes live opt-in or creates readiness.
