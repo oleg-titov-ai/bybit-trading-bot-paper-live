@@ -9,6 +9,7 @@ This file keeps lightweight maintenance rules for the trading bot repository.
 - Keep `.env.example` free from real credentials.
 - Update the risk disclaimer when behavior changes.
 - Check logs and screenshots before publishing them.
+- Confirm paper-mode validation rejects out-of-range synthetic order sizes before any live-readiness state can be created.
 
 ## Safe Data Rules
 
