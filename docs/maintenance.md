@@ -59,3 +59,4 @@
 - 2026-09-04: Verify a synthetic paper order exactly at the documented precision boundary is normalized deterministically in paper mode before risk validation, with no live readiness side effect.
 - 2026-09-05: Verify a synthetic paper order above the documented maximum size is rejected before submission and leaves live opt-in false with no readiness result or account-specific diagnostics.
 - 2026-09-05: Verify a synthetic paper order with an unsupported side value is rejected before risk or submission logic and cannot create or revive live readiness.
+- 2026-09-05: Verify synthetic NaN or infinite price and quantity values are rejected before normalization, sizing, risk checks, or submission and cannot create live readiness.
