@@ -57,3 +57,4 @@
 - 2026-09-04: Verify a synthetic paper-order timeout fails closed, clears transient simulated order state, and never changes live opt-in or creates readiness.
 - 2026-09-04: Verify a paper-mode validation with a synthetic zero or negative quantity is rejected before sizing or submission logic and leaves readiness explicitly false.
 - 2026-09-04: Verify a synthetic paper order exactly at the documented precision boundary is normalized deterministically in paper mode before risk validation, with no live readiness side effect.
+- 2026-09-05: Verify a synthetic paper order above the documented maximum size is rejected before submission and leaves live opt-in false with no readiness result or account-specific diagnostics.
