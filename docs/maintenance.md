@@ -61,3 +61,4 @@
 - 2026-09-05: Verify a synthetic paper order with an unsupported side value is rejected before risk or submission logic and cannot create or revive live readiness.
 - 2026-09-05: Verify synthetic NaN or infinite price and quantity values are rejected before normalization, sizing, risk checks, or submission and cannot create live readiness.
 - 2026-09-05: Verify a positive synthetic quantity that rounds to zero at the current instrument precision is rejected before risk or submission logic and cannot create or revive live readiness.
+- 2026-09-06: Verify a synthetic quantity that normalizes exactly to the documented minimum order size remains a paper-mode validation case and does not create or imply live readiness.
