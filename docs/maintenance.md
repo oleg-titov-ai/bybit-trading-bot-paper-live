@@ -64,3 +64,4 @@
 - 2026-09-06: Verify a synthetic quantity that normalizes exactly to the documented minimum order size remains a paper-mode validation case and does not create or imply live readiness.
 - 2026-09-06: Verify a synthetic paper-order price that is not aligned to the current instrument tick size is rejected or normalized deterministically before risk checks, without creating live readiness.
 - 2026-09-06: Verify a synthetic paper-order intent with a stale or future-dated client timestamp is rejected before risk checks or submission and cannot create or revive live readiness.
+- 2026-09-06: Verify a synthetic paper order whose notional value falls below the current instrument minimum is rejected before risk checks or submission and leaves live readiness explicitly false.
