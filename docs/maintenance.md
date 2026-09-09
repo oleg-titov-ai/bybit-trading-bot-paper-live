@@ -68,3 +68,4 @@
 - 2026-09-07: Verify a synthetic limit-order intent with a missing price is rejected before sizing, risk checks, or submission and leaves live opt-in false with no readiness result.
 - 2026-09-08: Verify a synthetic reduce-only paper order that would increase exposure is rejected before submission and cannot create or revive live readiness.
 - 2026-09-08: Verify a synthetic stop-order intent with a missing or invalid trigger price is rejected before sizing, risk checks, or submission and cannot create or revive live readiness.
+- 2026-09-09: Verify a synthetic reduce-only paper order is rejected when there is no open position to reduce, before submission and without creating or reviving live readiness.
