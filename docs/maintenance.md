@@ -1,6 +1,6 @@
 # Maintenance
 
-> Current maintenance focus (2026-09-15): treat synthetic order intent, order flags, position mode, risk settings, and current instrument metadata as one validation snapshot, invalidating readiness whenever any trading-relevant component changes.
+> Current maintenance focus (2026-09-15): bind paper-mode readiness to one current validation snapshot of synthetic order intent, order flags, position mode, risk settings, connection state, and fresh instrument metadata, invalidating it after reconnects or any trading-relevant change.
 
 - 2026-08-19: Treat live-session readiness as short-lived: recheck exchange position/order state and invalidate readiness whenever symbols, leverage, or risk settings change.
 - 2026-08-20: Record the last successful paper-mode smoke check in release notes before enabling a new live configuration, without storing balances, keys, or account identifiers.
