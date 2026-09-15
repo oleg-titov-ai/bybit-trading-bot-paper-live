@@ -6,7 +6,7 @@ Small practical improvements to consider next.
 
 - Link product documentation from the README.
 - Add a clear paper-mode quickstart.
-- Add safer startup checks.
+- Require fresh instrument metadata before readiness checks.
 - Add sample paper-trade output.
 
 ## Medium Term
