@@ -217,3 +217,5 @@ Maintenance note: immediately before any live order, confirm the current exchang
 Maintenance note: verify a paper-mode retry after stale market data starts from a fresh snapshot and cannot inherit a prior readiness result.
 
 Maintenance note: after reconnect, discard any in-flight readiness result that completed against the previous connection generation.
+
+Maintenance note: invalidate readiness when instrument filters refresh, even if the symbol name is unchanged, so sizing always uses one current metadata snapshot.
