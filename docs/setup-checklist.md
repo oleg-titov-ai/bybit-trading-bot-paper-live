@@ -113,6 +113,7 @@ Use this checklist to configure the bot safely.
 - [ ] Confirm the clean-session marker is invalidated if exchange state changes before the next live start.
 - [ ] Require a fresh exchange reconciliation when any local order-state timestamp predates the latest account-state update.
 - [ ] Remove stale local session markers after a completed test so the next run cannot inherit prior readiness state.
+- [ ] Invalidate readiness whenever connection state, instrument metadata, order flags, position mode, or risk settings change.
 
 ---
 
