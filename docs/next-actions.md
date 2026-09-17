@@ -7,6 +7,7 @@ Small practical improvements to consider next.
 - Link product documentation from the README.
 - Add a clear paper-mode quickstart.
 - Require fresh instrument metadata before readiness checks.
+- Add a paper-mode regression check that invalidates readiness when instrument metadata changes.
 - Add sample paper-trade output.
 
 ## Medium Term
