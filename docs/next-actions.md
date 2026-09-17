@@ -8,6 +8,7 @@ Small practical improvements to consider next.
 - Add a clear paper-mode quickstart.
 - Require fresh instrument metadata before readiness checks.
 - Add a paper-mode regression check that invalidates readiness when instrument metadata changes.
+- Add a paper-mode regression check that discards readiness results from an older validation generation.
 - Add sample paper-trade output.
 
 ## Medium Term
