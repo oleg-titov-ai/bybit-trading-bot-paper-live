@@ -219,3 +219,5 @@ Maintenance note: verify a paper-mode retry after stale market data starts from 
 Maintenance note: after reconnect, discard any in-flight readiness result that completed against the previous connection generation.
 
 Maintenance note: invalidate readiness when instrument filters refresh, even if the symbol name is unchanged, so sizing always uses one current metadata snapshot.
+
+Maintenance note: invalidate readiness whenever order type, time-in-force, reduce-only, or related execution flags change after validation.
