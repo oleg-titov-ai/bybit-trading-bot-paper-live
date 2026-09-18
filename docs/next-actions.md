@@ -10,6 +10,7 @@ Small practical improvements to consider next.
 - Add a paper-mode regression check that invalidates readiness when instrument metadata changes.
 - Add a paper-mode regression check that discards readiness results from an older validation generation.
 - Add a regression check that expires readiness when the instrument-metadata freshness window elapses, even if order inputs are unchanged.
+- Add a regression check that changing execution flags such as order type, time-in-force, or reduce-only invalidates readiness.
 - Add sample paper-trade output.
 
 ## Medium Term
