@@ -220,4 +220,4 @@ Maintenance note: after reconnect, discard any in-flight readiness result that c
 
 Maintenance note: invalidate readiness when instrument filters refresh, even if the symbol name is unchanged, so sizing always uses one current metadata snapshot.
 
-Maintenance note: invalidate readiness whenever order type, time-in-force, reduce-only, related execution flags, or instrument-metadata version changes, and validate the order against one current snapshot immediately before submission.
+Maintenance note: before live submission, reject a stale readiness result if order type, time-in-force, reduce-only, or instrument metadata changed; recalculate sizing against one current snapshot.
