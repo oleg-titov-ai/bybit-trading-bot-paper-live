@@ -225,3 +225,5 @@ Maintenance note: before live submission, reject a stale readiness result if ord
 Maintenance note: verify a rejected live submission records the reason without creating a local open-position record.
 
 Maintenance note: verify a rejected live order leaves both exchange state and the local open-position state unchanged.
+
+Maintenance note: verify changing reduce-only invalidates live readiness before order submission.
