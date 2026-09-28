@@ -221,3 +221,5 @@ Maintenance note: after reconnect, discard any in-flight readiness result that c
 Maintenance note: invalidate readiness when instrument filters refresh, even if the symbol name is unchanged, so sizing always uses one current metadata snapshot.
 
 Maintenance note: before live submission, reject a stale readiness result if order type, time-in-force, reduce-only, or instrument metadata changed; recalculate sizing and price/quantity rounding against one current snapshot.
+
+Maintenance note: verify a rejected live submission records the reason without creating a local open-position record.
