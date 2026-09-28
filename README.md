@@ -223,3 +223,5 @@ Maintenance note: invalidate readiness when instrument filters refresh, even if 
 Maintenance note: before live submission, reject a stale readiness result if order type, time-in-force, reduce-only, or instrument metadata changed; recalculate sizing and price/quantity rounding against one current snapshot.
 
 Maintenance note: verify a rejected live submission records the reason without creating a local open-position record.
+
+Maintenance note: verify a rejected live order leaves both exchange state and the local open-position state unchanged.
