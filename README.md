@@ -227,3 +227,5 @@ Maintenance note: verify a rejected live submission records the reason without c
 Maintenance note: verify a rejected live order leaves both exchange state and the local open-position state unchanged.
 
 Maintenance note: verify changing reduce-only invalidates live readiness before order submission.
+
+Maintenance note: verify live price and quantity rounding use the same current instrument metadata snapshot as readiness validation.
