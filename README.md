@@ -233,3 +233,5 @@ Maintenance note: verify live price and quantity rounding use the same current i
 Maintenance note: after reconnect, verify readiness results from the previous connection generation cannot authorize a live order.
 
 Maintenance note: verify a rejected reduce-only live order records the reason without creating or changing a local position.
+
+Maintenance note: verify stale market data blocks live submission before sizing, rounding, or local position state is created.
