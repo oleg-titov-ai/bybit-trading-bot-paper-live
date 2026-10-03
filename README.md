@@ -231,3 +231,5 @@ Maintenance note: verify changing reduce-only invalidates live readiness before 
 Maintenance note: verify live price and quantity rounding use the same current instrument metadata snapshot as readiness validation.
 
 Maintenance note: after reconnect, verify readiness results from the previous connection generation cannot authorize a live order.
+
+Maintenance note: verify a rejected reduce-only live order records the reason without creating or changing a local position.
