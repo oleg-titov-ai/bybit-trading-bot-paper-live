@@ -237,3 +237,5 @@ Maintenance note: verify a rejected reduce-only live order records the reason wi
 Maintenance note: verify stale market data blocks live submission before sizing, rounding, or local position state is created.
 
 Maintenance note: verify the market-data timestamp is rechecked immediately before live submission and stale snapshots fail closed.
+
+Maintenance note: verify a reconciled live-order retry reuses the original client order identifier instead of creating a second intent.
