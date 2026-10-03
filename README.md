@@ -239,3 +239,5 @@ Maintenance note: verify stale market data blocks live submission before sizing,
 Maintenance note: verify the market-data timestamp is rechecked immediately before live submission and stale snapshots fail closed.
 
 Maintenance note: verify a reconciled live-order retry reuses the original client order identifier instead of creating a second intent.
+
+Maintenance note: after a live-order timeout, reconcile exchange open orders by client identifier before any retry.
