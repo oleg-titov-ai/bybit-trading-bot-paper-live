@@ -235,3 +235,5 @@ Maintenance note: after reconnect, verify readiness results from the previous co
 Maintenance note: verify a rejected reduce-only live order records the reason without creating or changing a local position.
 
 Maintenance note: verify stale market data blocks live submission before sizing, rounding, or local position state is created.
+
+Maintenance note: verify the market-data timestamp is rechecked immediately before live submission and stale snapshots fail closed.
