@@ -241,3 +241,5 @@ Maintenance note: verify the market-data timestamp is rechecked immediately befo
 Maintenance note: verify a reconciled live-order retry reuses the original client order identifier instead of creating a second intent.
 
 Maintenance note: after a live-order timeout, reconcile exchange open orders by client identifier before any retry.
+
+Maintenance note: document the startup reconciliation order for positions, open orders, and local strategy state before enabling new live orders.
