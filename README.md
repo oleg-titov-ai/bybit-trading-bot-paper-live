@@ -245,3 +245,5 @@ Maintenance note: after a live-order timeout, reconcile exchange open orders by 
 Maintenance note: document the startup reconciliation order for positions, open orders, and local strategy state before enabling new live orders.
 
 Maintenance note: verify paper and live modes are clearly identified in startup logs and exported execution summaries.
+
+Maintenance note: document price and quantity precision rounding before order validation in both paper and live modes.
