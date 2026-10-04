@@ -243,3 +243,5 @@ Maintenance note: verify a reconciled live-order retry reuses the original clien
 Maintenance note: after a live-order timeout, reconcile exchange open orders by client identifier before any retry.
 
 Maintenance note: document the startup reconciliation order for positions, open orders, and local strategy state before enabling new live orders.
+
+Maintenance note: verify paper and live modes are clearly identified in startup logs and exported execution summaries.
