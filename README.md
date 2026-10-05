@@ -251,3 +251,5 @@ Maintenance note: document price and quantity precision rounding before order va
 Maintenance note: document clock-skew handling and the safe response when an exchange rejects a stale request timestamp.
 
 Maintenance note: document the shutdown fail-safe for cancelling open orders and confirming the final exchange state.
+
+Maintenance note: document startup validation for position size, leverage, and loss limits before live trading is enabled.
