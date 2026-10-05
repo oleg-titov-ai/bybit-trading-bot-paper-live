@@ -257,3 +257,5 @@ Maintenance note: document startup validation for position size, leverage, and l
 Maintenance note: document the market-data freshness threshold that blocks new orders when quotes become stale.
 
 Maintenance note: document the safe trading pause used during exchange maintenance or degraded API status.
+
+- Document order-state handling for partial fills so cancellation and position reconciliation remain deterministic.
