@@ -249,3 +249,5 @@ Maintenance note: verify paper and live modes are clearly identified in startup 
 Maintenance note: document price and quantity precision rounding before order validation in both paper and live modes.
 
 Maintenance note: document clock-skew handling and the safe response when an exchange rejects a stale request timestamp.
+
+Maintenance note: document the shutdown fail-safe for cancelling open orders and confirming the final exchange state.
