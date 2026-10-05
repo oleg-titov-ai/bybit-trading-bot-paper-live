@@ -255,3 +255,5 @@ Maintenance note: document the shutdown fail-safe for cancelling open orders and
 Maintenance note: document startup validation for position size, leverage, and loss limits before live trading is enabled.
 
 Maintenance note: document the market-data freshness threshold that blocks new orders when quotes become stale.
+
+Maintenance note: document the safe trading pause used during exchange maintenance or degraded API status.
