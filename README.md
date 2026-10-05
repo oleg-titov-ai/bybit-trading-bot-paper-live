@@ -253,3 +253,5 @@ Maintenance note: document clock-skew handling and the safe response when an exc
 Maintenance note: document the shutdown fail-safe for cancelling open orders and confirming the final exchange state.
 
 Maintenance note: document startup validation for position size, leverage, and loss limits before live trading is enabled.
+
+Maintenance note: document the market-data freshness threshold that blocks new orders when quotes become stale.
