@@ -261,3 +261,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document order-state handling for partial fills so cancellation and position reconciliation remain deterministic.
 
 - Document how duplicate exchange events are detected before updating local order and position state.
+
+- Document the reconciliation rule used when local order state conflicts with the exchange's final status.
