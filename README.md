@@ -267,3 +267,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document the maximum age allowed for account-balance data before a new order is rejected as unsafe.
 
 - Document how the bot distinguishes exchange rejection, timeout, and unknown order status before any retry.
+
+- Document the safe startup behavior when open orders exist for symbols excluded by the current configuration.
