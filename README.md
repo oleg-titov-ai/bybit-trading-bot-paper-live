@@ -269,3 +269,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document how the bot distinguishes exchange rejection, timeout, and unknown order status before any retry.
 
 - Document the safe startup behavior when open orders exist for symbols excluded by the current configuration.
+
+- Document how risk limits are revalidated immediately before submitting an order after a delayed market-data response.
