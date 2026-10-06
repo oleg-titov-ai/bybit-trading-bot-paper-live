@@ -263,3 +263,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document how duplicate exchange events are detected before updating local order and position state.
 
 - Document the reconciliation rule used when local order state conflicts with the exchange's final status.
+
+- Document the maximum age allowed for account-balance data before a new order is rejected as unsafe.
