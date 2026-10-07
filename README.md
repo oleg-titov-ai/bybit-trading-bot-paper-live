@@ -273,3 +273,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document how risk limits are revalidated immediately before submitting an order after a delayed market-data response.
 
 - Document how partial position closures update remaining risk and protective-order expectations.
+
+- Document how protective orders are checked after reconnecting to the exchange following a network interruption.
