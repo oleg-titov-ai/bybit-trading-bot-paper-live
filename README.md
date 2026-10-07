@@ -277,3 +277,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document how protective orders are checked after reconnecting to the exchange following a network interruption.
 
 - Document how stale websocket events are rejected after a successful account-state resynchronization.
+
+- Document how order sizing is rechecked after a partial fill changes available balance or exposure.
