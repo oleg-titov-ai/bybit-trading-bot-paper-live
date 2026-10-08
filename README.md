@@ -287,3 +287,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document the operator checks required before manually resetting the live-trading circuit breaker.
 
 - Document how the bot verifies no untracked exposure remains before live trading resumes after a circuit-breaker stop.
+
+- Document startup validation of API-key permissions without logging credentials or other sensitive values.
