@@ -285,3 +285,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document the circuit-breaker behavior used after repeated order rejections in live mode.
 
 - Document the operator checks required before manually resetting the live-trading circuit breaker.
+
+- Document how the bot verifies no untracked exposure remains before live trading resumes after a circuit-breaker stop.
