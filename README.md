@@ -295,3 +295,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document how symbol precision or minimum-order changes are detected before retrying a pending order.
 
 - Document how fees and funding adjustments are reconciled before reporting paper-versus-live performance.
+
+- Document safe behavior when a configured instrument becomes suspended, delisted, or unavailable for trading.
