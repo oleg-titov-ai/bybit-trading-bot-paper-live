@@ -291,3 +291,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document startup validation of API-key permissions without logging credentials or other sensitive values.
 
 - Document rate-limit backoff using exchange reset metadata so retries cannot create an order storm.
+
+- Document how symbol precision or minimum-order changes are detected before retrying a pending order.
