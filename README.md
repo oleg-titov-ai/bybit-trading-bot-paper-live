@@ -301,3 +301,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document how exchange maintenance notices gate new orders while existing positions and protective orders remain monitored.
 
 - Document restart reconciliation of open orders by exchange order ID before automated strategy execution resumes.
+
+- Document clock-drift detection and order blocking before authenticated exchange requests are signed.
