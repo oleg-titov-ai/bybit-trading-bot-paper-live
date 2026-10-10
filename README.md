@@ -303,3 +303,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document restart reconciliation of open orders by exchange order ID before automated strategy execution resumes.
 
 - Document clock-drift detection and order blocking before authenticated exchange requests are signed.
+
+- Document a startup preflight that blocks orders when the configured position mode differs from the exchange account mode.
