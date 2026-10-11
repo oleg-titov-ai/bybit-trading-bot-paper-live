@@ -311,3 +311,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document WebSocket sequence-gap recovery and require a fresh account snapshot before automated trading resumes.
 
 - Document instrument-metadata freshness checks for minimum notional, tick size, and lot size before order validation.
+
+- Document an unmistakable startup confirmation of paper versus live mode before credentials or order routes are activated.
