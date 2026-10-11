@@ -309,3 +309,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document the market-data freshness threshold that blocks order placement when ticker or order-book updates become stale.
 
 - Document WebSocket sequence-gap recovery and require a fresh account snapshot before automated trading resumes.
+
+- Document instrument-metadata freshness checks for minimum notional, tick size, and lot size before order validation.
