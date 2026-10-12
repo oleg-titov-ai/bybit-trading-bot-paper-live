@@ -323,3 +323,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document post-reconnect position reconciliation before any strategy is allowed to submit a new order.
 
 - Document fee-currency conversion timestamps so portfolio reports can reproduce historical net results.
+
+- Document an API-permission preflight that confirms trading access while rejecting unnecessary withdrawal privileges.
