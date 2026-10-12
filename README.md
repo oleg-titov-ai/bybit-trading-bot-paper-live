@@ -319,3 +319,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document order-client identifier uniqueness and restart recovery to prevent accidental duplicate submissions.
 
 - Document reconciliation of partial-fill fees before realized profit and loss is recorded or displayed.
+
+- Document post-reconnect position reconciliation before any strategy is allowed to submit a new order.
