@@ -327,3 +327,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document an API-permission preflight that confirms trading access while rejecting unnecessary withdrawal privileges.
 
 - Document funding-fee reconciliation so periodic charges are included consistently in paper and live performance reports.
+
+- Document market-snapshot timestamps used for order validation so stale depth data can be identified in audits.
