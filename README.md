@@ -329,3 +329,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document funding-fee reconciliation so periodic charges are included consistently in paper and live performance reports.
 
 - Document market-snapshot timestamps used for order validation so stale depth data can be identified in audits.
+
+- Document exchange risk-tier verification before order sizing so leverage assumptions remain valid after tier changes.
