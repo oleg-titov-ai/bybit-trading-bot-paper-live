@@ -331,3 +331,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document market-snapshot timestamps used for order validation so stale depth data can be identified in audits.
 
 - Document exchange risk-tier verification before order sizing so leverage assumptions remain valid after tier changes.
+
+- Document balance-source selection and rounding rules used when calculating available order margin.
