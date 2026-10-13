@@ -337,3 +337,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document execution-identifier deduplication so repeated exchange responses cannot double-count fills or fees.
 
 - Document price and quantity rounding direction for reduce-only orders so position closure cannot accidentally increase exposure.
+
+- Document stale-order cancellation after reconnecting before any replacement order is submitted.
