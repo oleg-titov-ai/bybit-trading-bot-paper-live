@@ -333,3 +333,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document exchange risk-tier verification before order sizing so leverage assumptions remain valid after tier changes.
 
 - Document balance-source selection and rounding rules used when calculating available order margin.
+
+- Document execution-identifier deduplication so repeated exchange responses cannot double-count fills or fees.
