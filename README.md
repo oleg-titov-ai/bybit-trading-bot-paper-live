@@ -320,7 +320,7 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 
 - Document reconciliation of partial-fill fees before realized profit and loss is recorded or displayed.
 
-- Document post-reconnect position reconciliation before any strategy is allowed to submit a new order.
+- Document post-reconnect position reconciliation before any strategy is allowed to submit a new order; compare a stale local position with a synthetic fresh snapshot in paper mode and specify that unresolved mismatches keep order submission blocked.
 
 - Document fee-currency conversion timestamps so portfolio reports can reproduce historical net results.
 
