@@ -332,7 +332,7 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 
 - Document exchange risk-tier verification before order sizing so leverage assumptions remain valid after tier changes.
 
-- Document balance-source selection and rounding rules used when calculating available order margin.
+- Document balance-source selection and rounding rules used when calculating available order margin; use paper-only synthetic snapshots to record the selected balance field, precision, and expected result at zero and rounding boundaries without submitting orders.
 
 - Document execution-identifier deduplication so repeated exchange responses cannot double-count fills or fees; replay one synthetic fill twice in a paper-only fixture and compare fill count, quantity, and fee totals with a single replay.
 
