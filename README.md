@@ -338,4 +338,4 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 
 - Document price and quantity rounding direction for reduce-only orders so position closure cannot accidentally increase exposure.
 
-- Document stale-order cancellation after reconnecting before any replacement order is submitted.
+- Document stale-order cancellation after reconnecting before any replacement order is submitted; use a paper-only fixture with an unresolved cancellation and verify replacement remains blocked until the open-order state is reconciled.
