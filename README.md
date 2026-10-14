@@ -334,7 +334,7 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 
 - Document balance-source selection and rounding rules used when calculating available order margin.
 
-- Document execution-identifier deduplication so repeated exchange responses cannot double-count fills or fees.
+- Document execution-identifier deduplication so repeated exchange responses cannot double-count fills or fees; replay one synthetic fill twice in a paper-only fixture and compare fill count, quantity, and fee totals with a single replay.
 
 - Document price and quantity rounding direction for reduce-only orders so position closure cannot accidentally increase exposure.
 
