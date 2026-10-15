@@ -326,7 +326,7 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 
 - Document an API-permission preflight that confirms trading access while rejecting unnecessary withdrawal privileges; use mocked permission responses for allowed, read-only, and withdrawal-enabled keys to specify expected decisions without real credentials or exchange requests.
 
-- Document funding-fee reconciliation so periodic charges are included consistently in paper and live performance reports.
+- Document funding-fee reconciliation so periodic charges are included consistently in paper and live performance reports; use paper-only positive, negative, missing, and duplicate funding events to verify identifier, currency, timestamp, and expected net-PnL treatment without live account data.
 
 - Document market-snapshot timestamps used for order validation so stale depth data can be identified in audits; use paper-only snapshots just inside and outside the freshness threshold to record source time, receipt time, and the expected allow-or-block decision without exchange credentials.
 
