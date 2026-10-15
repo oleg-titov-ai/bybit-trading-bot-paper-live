@@ -336,6 +336,6 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 
 - Document execution-identifier deduplication so repeated exchange responses cannot double-count fills or fees; replay one synthetic fill twice in a paper-only fixture and compare fill count, quantity, and fee totals with a single replay.
 
-- Document price and quantity rounding direction for reduce-only orders so position closure cannot accidentally increase exposure.
+- Document price and quantity rounding direction for reduce-only orders so position closure cannot accidentally increase exposure; use paper-only long and short fixtures near exchange increments to verify the rounded quantity never exceeds the remaining position or flips its side.
 
 - Document stale-order cancellation after reconnecting before any replacement order is submitted; use a paper-only fixture with an unresolved cancellation and verify replacement remains blocked until the open-order state is reconciled.
