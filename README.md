@@ -324,7 +324,7 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 
 - Document fee-currency conversion timestamps so portfolio reports can reproduce historical net results.
 
-- Document an API-permission preflight that confirms trading access while rejecting unnecessary withdrawal privileges.
+- Document an API-permission preflight that confirms trading access while rejecting unnecessary withdrawal privileges; use mocked permission responses for allowed, read-only, and withdrawal-enabled keys to specify expected decisions without real credentials or exchange requests.
 
 - Document funding-fee reconciliation so periodic charges are included consistently in paper and live performance reports.
 
