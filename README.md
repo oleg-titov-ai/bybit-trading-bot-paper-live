@@ -322,7 +322,7 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 
 - Document post-reconnect position reconciliation before any strategy is allowed to submit a new order; compare a stale local position with a synthetic fresh snapshot in paper mode and specify that unresolved mismatches keep order submission blocked.
 
-- Document fee-currency conversion timestamps so portfolio reports can reproduce historical net results.
+- Document fee-currency conversion timestamps so portfolio reports can reproduce historical net results; use a paper-only fixture with a fee in another currency to record rate source, quote timestamp, rounding, and the expected converted amount without live account data.
 
 - Document an API-permission preflight that confirms trading access while rejecting unnecessary withdrawal privileges; use mocked permission responses for allowed, read-only, and withdrawal-enabled keys to specify expected decisions without real credentials or exchange requests.
 
