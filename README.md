@@ -330,7 +330,7 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 
 - Document market-snapshot timestamps used for order validation so stale depth data can be identified in audits; use paper-only snapshots just inside and outside the freshness threshold to record source time, receipt time, and the expected allow-or-block decision without exchange credentials.
 
-- Document exchange risk-tier verification before order sizing so leverage assumptions remain valid after tier changes.
+- Document exchange risk-tier verification before order sizing so leverage assumptions remain valid after tier changes; use mocked unchanged, changed, and unavailable tier responses in paper mode to specify revalidation and blocking behavior without altering live leverage or submitting orders.
 
 - Document balance-source selection and rounding rules used when calculating available order margin; use paper-only synthetic snapshots to record the selected balance field, precision, and expected result at zero and rounding boundaries without submitting orders.
 
