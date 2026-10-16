@@ -316,7 +316,7 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 
 - Document shutdown verification for cancel-all requests, including reconciliation of orders still reported as open.
 
-- Document order-client identifier uniqueness and restart recovery to prevent accidental duplicate submissions.
+- Document order-client identifier uniqueness and restart recovery to prevent accidental duplicate submissions; use a paper-only interrupted submission with an unknown outcome to specify identifier persistence and reconciliation before any replacement order is allowed.
 
 - Document reconciliation of partial-fill fees before realized profit and loss is recorded or displayed; use paper-only fills with different fee amounts and a delayed fee correction to specify rounding, provisional totals, and the reconciled result without counting either fill twice.
 
