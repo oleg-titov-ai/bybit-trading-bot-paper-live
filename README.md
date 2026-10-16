@@ -312,7 +312,7 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 
 - Document instrument-metadata freshness checks for minimum notional, tick size, and lot size before order validation.
 
-- Document an unmistakable startup confirmation of paper versus live mode before credentials or order routes are activated.
+- Document an unmistakable startup confirmation of paper versus live mode before credentials or order routes are activated; use mocked paper, live, missing, and conflicting mode settings to specify the visible mode banner and fail-closed behavior without loading real credentials or enabling order submission.
 
 - Document shutdown verification for cancel-all requests, including reconciliation of orders still reported as open; use paper-only acknowledged, timed-out, and partially cancelled responses to distinguish request acceptance from confirmed closure and report unresolved orders without claiming a clean shutdown.
 
