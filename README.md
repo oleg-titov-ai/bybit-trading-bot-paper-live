@@ -318,7 +318,7 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 
 - Document order-client identifier uniqueness and restart recovery to prevent accidental duplicate submissions.
 
-- Document reconciliation of partial-fill fees before realized profit and loss is recorded or displayed.
+- Document reconciliation of partial-fill fees before realized profit and loss is recorded or displayed; use paper-only fills with different fee amounts and a delayed fee correction to specify rounding, provisional totals, and the reconciled result without counting either fill twice.
 
 - Document post-reconnect position reconciliation before any strategy is allowed to submit a new order; compare a stale local position with a synthetic fresh snapshot in paper mode and specify that unresolved mismatches keep order submission blocked.
 
