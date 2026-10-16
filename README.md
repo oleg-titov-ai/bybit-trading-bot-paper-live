@@ -314,7 +314,7 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 
 - Document an unmistakable startup confirmation of paper versus live mode before credentials or order routes are activated.
 
-- Document shutdown verification for cancel-all requests, including reconciliation of orders still reported as open.
+- Document shutdown verification for cancel-all requests, including reconciliation of orders still reported as open; use paper-only acknowledged, timed-out, and partially cancelled responses to distinguish request acceptance from confirmed closure and report unresolved orders without claiming a clean shutdown.
 
 - Document order-client identifier uniqueness and restart recovery to prevent accidental duplicate submissions; use a paper-only interrupted submission with an unknown outcome to specify identifier persistence and reconciliation before any replacement order is allowed.
 
