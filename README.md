@@ -296,7 +296,7 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 
 - Document how fees and funding adjustments are reconciled before reporting paper-versus-live performance.
 
-- Document safe behavior when a configured instrument becomes suspended, delisted, or unavailable for trading.
+- Document safe behavior when a configured instrument becomes suspended, delisted, or unavailable for trading; use mocked paper-only status changes to specify blocked new orders, reconciliation of existing exposure, and an operator alert without automatically substituting another instrument.
 
 - Document how exchange maintenance notices gate new orders while existing positions and protective orders remain monitored; use paper-only degraded and recovered status fixtures to specify blocked submissions, stale-monitoring alerts, and reconciliation required before resuming without cancelling protective orders automatically.
 
