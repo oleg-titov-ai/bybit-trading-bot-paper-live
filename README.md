@@ -298,7 +298,7 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 
 - Document safe behavior when a configured instrument becomes suspended, delisted, or unavailable for trading.
 
-- Document how exchange maintenance notices gate new orders while existing positions and protective orders remain monitored.
+- Document how exchange maintenance notices gate new orders while existing positions and protective orders remain monitored; use paper-only degraded and recovered status fixtures to specify blocked submissions, stale-monitoring alerts, and reconciliation required before resuming without cancelling protective orders automatically.
 
 - Document restart reconciliation of open orders by exchange order ID before automated strategy execution resumes.
 
