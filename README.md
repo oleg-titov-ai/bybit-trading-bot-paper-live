@@ -306,7 +306,7 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 
 - Document a startup preflight that blocks orders when the configured position mode differs from the exchange account mode.
 
-- Document the market-data freshness threshold that blocks order placement when ticker or order-book updates become stale.
+- Document the market-data freshness threshold that blocks order placement when ticker or order-book updates become stale; use paper-only fresh-ticker/stale-book and stale-ticker/fresh-book fixtures to specify required inputs and keep order placement blocked until every required feed is current.
 
 - Document WebSocket sequence-gap recovery and require a fresh account snapshot before automated trading resumes; use a paper-only synthetic stream with a missing sequence and duplicate replay to specify order blocking, snapshot reconciliation, and the explicit condition for resuming without double-counting fills.
 
