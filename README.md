@@ -294,7 +294,7 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 
 - Document how symbol precision or minimum-order changes are detected before retrying a pending order; use a paper-only changed-metadata fixture to revalidate quantity, price, and notional, blocking invalid retries rather than increasing size automatically to meet a new minimum.
 
-- Document how fees and funding adjustments are reconciled before reporting paper-versus-live performance.
+- Document how fees and funding adjustments are reconciled before reporting paper-versus-live performance; use synthetic reports with identical periods, currencies, and cost conventions to distinguish gross, net, and provisional results, marking missing costs explicitly instead of treating them as zero.
 
 - Document safe behavior when a configured instrument becomes suspended, delisted, or unavailable for trading; use mocked paper-only status changes to specify blocked new orders, reconciliation of existing exposure, and an operator alert without automatically substituting another instrument.
 
