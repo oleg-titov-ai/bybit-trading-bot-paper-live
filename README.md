@@ -292,7 +292,7 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 
 - Document rate-limit backoff using exchange reset metadata so retries cannot create an order storm; use mocked valid, missing, and expired reset metadata in paper mode to define bounded fallback delays, retry limits, and reconciliation of unknown submission outcomes before any order retry.
 
-- Document how symbol precision or minimum-order changes are detected before retrying a pending order.
+- Document how symbol precision or minimum-order changes are detected before retrying a pending order; use a paper-only changed-metadata fixture to revalidate quantity, price, and notional, blocking invalid retries rather than increasing size automatically to meet a new minimum.
 
 - Document how fees and funding adjustments are reconciled before reporting paper-versus-live performance.
 
