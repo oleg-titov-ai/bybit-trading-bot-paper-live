@@ -302,7 +302,7 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 
 - Document restart reconciliation of open orders by exchange order ID before automated strategy execution resumes; compare synthetic local and exchange snapshots in paper mode to classify matched, missing, and untracked orders, keeping execution blocked until unresolved states are reviewed without blindly resubmitting them.
 
-- Document clock-drift detection and order blocking before authenticated exchange requests are signed.
+- Document clock-drift detection and order blocking before authenticated exchange requests are signed; use paper-only mocked offsets below, at, and above the configured tolerance to specify blocking and revalidation, treating an unavailable time check as unresolved without changing the host clock or using real keys.
 
 - Document a startup preflight that blocks orders when the configured position mode differs from the exchange account mode.
 
