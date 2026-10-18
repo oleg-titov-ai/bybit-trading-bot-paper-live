@@ -300,7 +300,7 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 
 - Document how exchange maintenance notices gate new orders while existing positions and protective orders remain monitored; use paper-only degraded and recovered status fixtures to specify blocked submissions, stale-monitoring alerts, and reconciliation required before resuming without cancelling protective orders automatically.
 
-- Document restart reconciliation of open orders by exchange order ID before automated strategy execution resumes.
+- Document restart reconciliation of open orders by exchange order ID before automated strategy execution resumes; compare synthetic local and exchange snapshots in paper mode to classify matched, missing, and untracked orders, keeping execution blocked until unresolved states are reviewed without blindly resubmitting them.
 
 - Document clock-drift detection and order blocking before authenticated exchange requests are signed.
 
