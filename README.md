@@ -282,7 +282,7 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 
 - Document protective-order quantity review after a partial position close using paper-only long and short snapshots; compare remaining position size with protective quantities, specify rounding and unresolved-state blocking, and verify no proposed quantity can exceed the remaining exposure without submitting orders.
 
-- Document the circuit-breaker behavior used after repeated order rejections in live mode.
+- Document the circuit-breaker behavior used after repeated order rejections in live mode; use mocked paper-only sequences below and at the threshold to specify when new submissions are blocked, how unresolved orders are reconciled, and which explicit reset condition is required before trading may resume.
 
 - Document manual circuit-breaker reset prerequisites using paper-only unresolved and reconciled snapshots; require review of the triggering rejection, current risk settings, and open-order state, keeping reset blocked while checks are unresolved and never treating restart as automatic approval.
 
