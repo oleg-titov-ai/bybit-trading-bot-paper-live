@@ -220,7 +220,7 @@ Maintenance note: immediately before any live order, confirm the current exchang
 
 Maintenance note: verify a paper-mode retry after stale market data starts from a fresh snapshot and cannot inherit a prior readiness result.
 
-Maintenance note: after reconnect, discard any in-flight readiness result that completed against the previous connection generation.
+Maintenance note: after reconnect, discard in-flight readiness results from the previous connection generation and verify they cannot authorize a live order.
 
 Maintenance note: invalidate readiness when instrument filters refresh, even if the symbol name is unchanged, so sizing always uses one current metadata snapshot.
 
@@ -231,8 +231,6 @@ Maintenance note: verify a rejected live submission records the reason while lea
 Maintenance note: verify changing reduce-only invalidates live readiness before order submission.
 
 Maintenance note: verify live price and quantity rounding use the same current instrument metadata snapshot as readiness validation.
-
-Maintenance note: after reconnect, verify readiness results from the previous connection generation cannot authorize a live order.
 
 Maintenance note: verify a rejected reduce-only live order records the reason without creating or changing a local position.
 
