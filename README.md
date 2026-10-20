@@ -280,7 +280,7 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 
 - Document how order sizing is rechecked after a partial fill changes available balance or exposure.
 
-- Document how protective-order quantities are revalidated after a partial position close.
+- Document protective-order quantity review after a partial position close using paper-only long and short snapshots; compare remaining position size with protective quantities, specify rounding and unresolved-state blocking, and verify no proposed quantity can exceed the remaining exposure without submitting orders.
 
 - Document the circuit-breaker behavior used after repeated order rejections in live mode.
 
