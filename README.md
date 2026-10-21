@@ -274,7 +274,7 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 
 - Document how partial position closures update remaining risk and protective-order expectations.
 
-- Document how protective orders are checked after reconnecting to the exchange following a network interruption.
+- Document how protective orders are checked after reconnecting to the exchange following a network interruption; use paper-only fixtures with present, missing, duplicate, and mismatched stop orders to specify position-first reconciliation, blocked new entries, and explicit operator visibility without automatically modifying live orders.
 
 - Document how stale websocket events are rejected after a successful account-state resynchronization.
 
