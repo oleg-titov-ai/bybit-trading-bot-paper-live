@@ -262,7 +262,7 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 
 - Document how duplicate exchange events are detected before updating local order and position state.
 
-- Document the reconciliation rule used when local order state conflicts with the exchange's final status.
+- Document the reconciliation rule used when local order state conflicts with the exchange's final status; use paper-only fixtures for locally open orders reported as filled, cancelled, or missing to define the authoritative evidence, required fill and balance checks, and the condition that blocks new submissions until uncertainty is resolved.
 
 - Document the maximum age allowed for account-balance data before a new order is rejected as unsafe; use paper-only snapshots below, at, and above the documented age limit, plus a missing timestamp, to define boundary decisions and keep unresolved freshness blocked without real credentials or order submission.
 
