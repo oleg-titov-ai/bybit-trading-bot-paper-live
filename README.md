@@ -270,7 +270,7 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 
 - Document startup handling of open orders for excluded symbols using a paper-only fixture; keep those orders visible for reconciliation and unresolved exposure blocked from new strategy orders, without silently ignoring them or automatically cancelling protective orders.
 
-- Document how risk limits are revalidated immediately before submitting an order after a delayed market-data response.
+- Document how risk limits are revalidated immediately before submitting an order after a delayed market-data response; use paper-only fresh, stale, and refreshed quote fixtures to rerun position, balance, exposure, and loss-limit checks, blocking submission when any input remains stale or the recalculated size exceeds a limit.
 
 - Document how partial position closures update remaining risk and protective-order expectations; use paper-only long and short fixtures with partial close fills to recalculate remaining exposure, stop quantity, and loss-at-stop, blocking new entries when protective coverage is missing or exceeds the reconciled position.
 
