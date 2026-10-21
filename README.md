@@ -258,7 +258,7 @@ Maintenance note: document the market-data freshness threshold that blocks new o
 
 Maintenance note: document the safe trading pause used during exchange maintenance or degraded API status.
 
-- Document order-state handling for partial fills so cancellation and position reconciliation remain deterministic.
+- Document order-state handling for partial fills so cancellation and position reconciliation remain deterministic; use paper-only partial-fill fixtures followed by cancel success, cancel rejection, and ambiguous timeout to specify filled quantity, remaining order state, fees, and the block on replacement orders until reconciliation completes.
 
 - Document how duplicate exchange events are detected before updating local order and position state.
 
