@@ -266,7 +266,7 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 
 - Document the maximum age allowed for account-balance data before a new order is rejected as unsafe; use paper-only snapshots below, at, and above the documented age limit, plus a missing timestamp, to define boundary decisions and keep unresolved freshness blocked without real credentials or order submission.
 
-- Document how the bot distinguishes exchange rejection, timeout, and unknown order status before any retry.
+- Document how the bot distinguishes exchange rejection, timeout, and unknown order status before any retry; use paper-only mocked explicit rejection, no-response timeout, late acknowledgement, and missing-order lookup to specify reconciliation by client identifier, retry prohibition under uncertainty, and operator-visible final state.
 
 - Document startup handling of open orders for excluded symbols using a paper-only fixture; keep those orders visible for reconciliation and unresolved exposure blocked from new strategy orders, without silently ignoring them or automatically cancelling protective orders.
 
