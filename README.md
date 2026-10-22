@@ -339,3 +339,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document price and quantity rounding direction for reduce-only orders so position closure cannot accidentally increase exposure; use paper-only long and short fixtures near exchange increments to verify the rounded quantity never exceeds the remaining position or flips its side.
 
 - Document stale-order cancellation after reconnecting before any replacement order is submitted; use a paper-only fixture with an unresolved cancellation and verify replacement remains blocked until the open-order state is reconciled.
+
+- Document the configured trigger-price source for protective orders so mark, index, and last-price semantics cannot be confused; use paper-only synthetic snapshots where the sources diverge to verify the selected source, audit output, and fail-closed behavior when exchange metadata disagrees.
