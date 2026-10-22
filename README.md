@@ -345,3 +345,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document liquidation-price and maintenance-margin fields as informational risk indicators rather than executable guarantees; use paper-only synthetic long and short positions near tier boundaries to record the exchange source, timestamp, rounding, and unavailable-state behavior without inferring safety from a stale value.
 
 - Document cancel-replace behavior when an order amendment has an unknown outcome; use paper-only acknowledged, rejected, timed-out, and partially filled fixtures to require reconciliation by exchange and client identifiers before any replacement is submitted, preventing duplicate exposure.
+
+- Document order-book checksum or sequence-integrity validation before depth data is used for entry decisions; use paper-only valid, mismatched, unavailable, and recovered snapshots to specify order blocking, resubscription, and the fresh-snapshot condition required before resuming.
