@@ -353,3 +353,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document exchange price-band validation before limit and protective orders are submitted; use paper-only prices below, at, and above synthetic bounds to define rounding, rejection, refresh of stale limits, and fail-closed behavior without automatically moving an order to a materially different price.
 
 - Document reconciliation when a manual external position appears for a symbol the bot considers flat; use paper-only matching, conflicting, and unavailable position snapshots to block new entries, avoid adopting or closing an unowned position automatically, and require explicit operator resolution.
+
+- Document runtime behavior when API-key permissions are reduced or become read-only; use paper-only authenticated, permission-denied, and recovered responses to halt new orders, preserve local reconciliation evidence, avoid repeated unauthorized requests, and require a successful capability preflight before resuming.
