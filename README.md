@@ -349,3 +349,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document order-book checksum or sequence-integrity validation before depth data is used for entry decisions; use paper-only valid, mismatched, unavailable, and recovered snapshots to specify order blocking, resubscription, and the fresh-snapshot condition required before resuming.
 
 - Document reconciliation when leverage or margin mode is changed externally while the bot is running; use paper-only matching, changed, and unavailable account snapshots to block new orders, preserve protective-order monitoring, and require explicit state confirmation before strategy execution resumes.
+
+- Document exchange price-band validation before limit and protective orders are submitted; use paper-only prices below, at, and above synthetic bounds to define rounding, rejection, refresh of stale limits, and fail-closed behavior without automatically moving an order to a materially different price.
