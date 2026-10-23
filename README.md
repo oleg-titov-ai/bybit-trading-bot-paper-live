@@ -355,3 +355,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document reconciliation when a manual external position appears for a symbol the bot considers flat; use paper-only matching, conflicting, and unavailable position snapshots to block new entries, avoid adopting or closing an unowned position automatically, and require explicit operator resolution.
 
 - Document runtime behavior when API-key permissions are reduced or become read-only; use paper-only authenticated, permission-denied, and recovered responses to halt new orders, preserve local reconciliation evidence, avoid repeated unauthorized requests, and require a successful capability preflight before resuming.
+
+- Document risk revalidation when wallet equity changes because of a manual transfer between signal evaluation and order submission; use paper-only increased, decreased, unchanged, and unavailable balances to recompute or block size according to policy without exceeding configured exposure.
