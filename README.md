@@ -357,3 +357,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document runtime behavior when API-key permissions are reduced or become read-only; use paper-only authenticated, permission-denied, and recovered responses to halt new orders, preserve local reconciliation evidence, avoid repeated unauthorized requests, and require a successful capability preflight before resuming.
 
 - Document risk revalidation when wallet equity changes because of a manual transfer between signal evaluation and order submission; use paper-only increased, decreased, unchanged, and unavailable balances to recompute or block size according to policy without exceeding configured exposure.
+
+- Document recovery from sequence gaps in private order, execution, position, and wallet streams; use paper-only contiguous, duplicate, skipped, and reordered events to pause new orders, fetch an authoritative snapshot, and resume only after state reconciliation without replaying fills twice.
