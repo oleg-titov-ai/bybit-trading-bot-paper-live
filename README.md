@@ -359,3 +359,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document risk revalidation when wallet equity changes because of a manual transfer between signal evaluation and order submission; use paper-only increased, decreased, unchanged, and unavailable balances to recompute or block size according to policy without exceeding configured exposure.
 
 - Document recovery from sequence gaps in private order, execution, position, and wallet streams; use paper-only contiguous, duplicate, skipped, and reordered events to pause new orders, fetch an authoritative snapshot, and resume only after state reconciliation without replaying fills twice.
+
+- Document behavior when an instrument enters pre-delisting, suspended, or settlement status while orders or positions exist; use paper-only status transitions to block new entries, reconcile open orders and protective coverage, and require explicit operator review without assuming a tradable exit.
