@@ -361,3 +361,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document recovery from sequence gaps in private order, execution, position, and wallet streams; use paper-only contiguous, duplicate, skipped, and reordered events to pause new orders, fetch an authoritative snapshot, and resume only after state reconciliation without replaying fills twice.
 
 - Document behavior when an instrument enters pre-delisting, suspended, or settlement status while orders or positions exist; use paper-only status transitions to block new entries, reconcile open orders and protective coverage, and require explicit operator review without assuming a tradable exit.
+
+- Document refresh behavior when an instrument's funding interval or next-funding timestamp changes during a session; use paper-only unchanged, shortened, extended, and unavailable schedules to invalidate stale forecasts, preserve recorded fills, and block funding-sensitive entries until current metadata is confirmed.
