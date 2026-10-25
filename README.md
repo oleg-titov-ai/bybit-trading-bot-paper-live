@@ -371,3 +371,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document fail-closed behavior during announced or detected exchange API maintenance windows; use paper-only upcoming, active, extended, ended, and status-unavailable fixtures to block new orders, preserve protective-order monitoring where available, bound retries, and require a fresh authoritative reconciliation before trading resumes.
 
 - Document API time-synchronization checks for timestamp and `recv_window` validation; use paper-only aligned, drifting, corrected, and server-time-unavailable fixtures to block signed order actions outside the configured tolerance, keep retries bounded, and resume only after a fresh authenticated reconciliation.
+
+- Document reconciliation when REST snapshots and private WebSocket streams disagree about orders, positions, or balances; use paper-only newer-snapshot, newer-stream, missing-sequence, and timestamp-ambiguous fixtures to define source precedence, block new exposure during uncertainty, and resume only after one coherent authoritative state is confirmed.
