@@ -365,3 +365,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document refresh behavior when an instrument's funding interval or next-funding timestamp changes during a session; use paper-only unchanged, shortened, extended, and unavailable schedules to invalidate stale forecasts, preserve recorded fills, and block funding-sensitive entries until current metadata is confirmed.
 
 - Document collision handling for deterministic client order IDs after restart or restored state; use paper-only unique, repeated-same-intent, repeated-different-intent, and lookup-unavailable cases to reconcile before submission, reuse only an exact known order, and never overwrite a conflicting intent.
+
+- Document complete pagination of open-order and execution snapshots used for reconciliation; use paper-only zero-page, single-page, multi-page, repeated-cursor, and missing-cursor responses to bound traversal, deduplicate by stable identifiers, and keep trading blocked when the snapshot may be incomplete.
