@@ -379,3 +379,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document reconciliation after a partial liquidation or auto-deleveraging event changes position size outside the strategy's order flow; use paper-only synthetic reductions, full closure, duplicate events, and unavailable snapshots to block new exposure, re-evaluate protective orders, and require an authoritative position and balance check before resuming.
 
 - Document risk revalidation when the exchange changes a position's risk-limit tier or maintenance-margin schedule during a session; use paper-only unchanged, increased, decreased, rejected, and unavailable tier fixtures to block stale sizing, preserve existing protective monitoring, and require a fresh authoritative margin snapshot before new exposure.
+
+- Document protective-order reconciliation after an entry is partially filled; use paper-only zero-fill, incremental-fill, final-fill, cancellation, and delayed-execution fixtures to size reduce-only protection from authoritative filled quantity, avoid uncovered exposure or over-close orders, and block replacement while fill state is uncertain.
