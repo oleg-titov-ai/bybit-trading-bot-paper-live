@@ -381,3 +381,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document risk revalidation when the exchange changes a position's risk-limit tier or maintenance-margin schedule during a session; use paper-only unchanged, increased, decreased, rejected, and unavailable tier fixtures to block stale sizing, preserve existing protective monitoring, and require a fresh authoritative margin snapshot before new exposure.
 
 - Document protective-order reconciliation after an entry is partially filled; use paper-only zero-fill, incremental-fill, final-fill, cancellation, and delayed-execution fixtures to size reduce-only protection from authoritative filled quantity, avoid uncovered exposure or over-close orders, and block replacement while fill state is uncertain.
+
+- Document post-only entry handling when market movement makes an order immediately executable; use paper-only accepted, rejected, repriced, delayed-acknowledgement, and unknown-outcome fixtures to preserve maker-only intent, bound replacements, prevent accidental taker exposure, and reconcile authoritative order state before retrying.
