@@ -375,3 +375,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document reconciliation when REST snapshots and private WebSocket streams disagree about orders, positions, or balances; use paper-only newer-snapshot, newer-stream, missing-sequence, and timestamp-ambiguous fixtures to define source precedence, block new exposure during uncertainty, and resume only after one coherent authoritative state is confirmed.
 
 - Document metadata refresh when an instrument's tick size, quantity step, minimum size, or price scale changes during a session; use paper-only unchanged, tightened, loosened, and unavailable rule fixtures to revalidate pending intents, block stale submissions, and never round an order into materially different exposure automatically.
+
+- Document reconciliation after a partial liquidation or auto-deleveraging event changes position size outside the strategy's order flow; use paper-only synthetic reductions, full closure, duplicate events, and unavailable snapshots to block new exposure, re-evaluate protective orders, and require an authoritative position and balance check before resuming.
