@@ -393,3 +393,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document quantity-unit conversion for linear, inverse, and contract-denominated instruments; use paper-only base-quantity, quote-value, contract-count, boundary-rounding, and unavailable-metadata fixtures to size from authoritative instrument rules, block ambiguous orders, and report risk in one documented unit without silent conversion.
 
 - Document handling when a `reduce-only` order is rejected because the authoritative position is already flat, smaller, or on the opposite side; use paper-only matching, flat, partial, flipped, delayed-snapshot, and unknown-outcome fixtures to avoid opening exposure, reconcile position and open orders, and retry only with a freshly validated quantity.
+
+- Document fee-schedule refresh when maker, taker, or account-tier rates change during a session; use paper-only unchanged, increased, decreased, unavailable, and stale-cache fixtures to recompute expected costs before new exposure, preserve existing protective orders, and block entries whose documented edge no longer clears the configured threshold.
