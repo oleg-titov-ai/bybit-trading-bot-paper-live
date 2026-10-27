@@ -387,3 +387,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document conditional-order trigger-source validation for last, mark, and index prices; use paper-only matching, divergent, unavailable, changed-configuration, and delayed-trigger fixtures to bind each order to the reviewed source, prevent silent fallback, and reconcile authoritative order state before any replacement.
 
 - Document self-match-prevention behavior when concurrent strategy intents could trade against the same account; use paper-only non-crossing, crossing, partial-fill, cancel-newest, cancel-oldest, and unavailable-policy fixtures to preserve the configured rule, avoid artificial volume and fees, and reconcile both orders before resuming submissions.
+
+- Document `close-on-trigger` semantics for protective conditional orders; use paper-only full-position, partial-position, already-flat, conflicting-open-order, delayed-trigger, and unknown-outcome fixtures to prevent exposure increases, cancel only documented conflicting orders, and reconcile authoritative position and order state before replacement.
