@@ -385,3 +385,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document post-only entry handling when market movement makes an order immediately executable; use paper-only accepted, rejected, repriced, delayed-acknowledgement, and unknown-outcome fixtures to preserve maker-only intent, bound replacements, prevent accidental taker exposure, and reconcile authoritative order state before retrying.
 
 - Document conditional-order trigger-source validation for last, mark, and index prices; use paper-only matching, divergent, unavailable, changed-configuration, and delayed-trigger fixtures to bind each order to the reviewed source, prevent silent fallback, and reconcile authoritative order state before any replacement.
+
+- Document self-match-prevention behavior when concurrent strategy intents could trade against the same account; use paper-only non-crossing, crossing, partial-fill, cancel-newest, cancel-oldest, and unavailable-policy fixtures to preserve the configured rule, avoid artificial volume and fees, and reconcile both orders before resuming submissions.
