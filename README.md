@@ -391,3 +391,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document `close-on-trigger` semantics for protective conditional orders; use paper-only full-position, partial-position, already-flat, conflicting-open-order, delayed-trigger, and unknown-outcome fixtures to prevent exposure increases, cancel only documented conflicting orders, and reconcile authoritative position and order state before replacement.
 
 - Document quantity-unit conversion for linear, inverse, and contract-denominated instruments; use paper-only base-quantity, quote-value, contract-count, boundary-rounding, and unavailable-metadata fixtures to size from authoritative instrument rules, block ambiguous orders, and report risk in one documented unit without silent conversion.
+
+- Document handling when a `reduce-only` order is rejected because the authoritative position is already flat, smaller, or on the opposite side; use paper-only matching, flat, partial, flipped, delayed-snapshot, and unknown-outcome fixtures to avoid opening exposure, reconcile position and open orders, and retry only with a freshly validated quantity.
