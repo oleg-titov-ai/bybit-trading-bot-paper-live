@@ -389,3 +389,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document self-match-prevention behavior when concurrent strategy intents could trade against the same account; use paper-only non-crossing, crossing, partial-fill, cancel-newest, cancel-oldest, and unavailable-policy fixtures to preserve the configured rule, avoid artificial volume and fees, and reconcile both orders before resuming submissions.
 
 - Document `close-on-trigger` semantics for protective conditional orders; use paper-only full-position, partial-position, already-flat, conflicting-open-order, delayed-trigger, and unknown-outcome fixtures to prevent exposure increases, cancel only documented conflicting orders, and reconcile authoritative position and order state before replacement.
+
+- Document quantity-unit conversion for linear, inverse, and contract-denominated instruments; use paper-only base-quantity, quote-value, contract-count, boundary-rounding, and unavailable-metadata fixtures to size from authoritative instrument rules, block ambiguous orders, and report risk in one documented unit without silent conversion.
