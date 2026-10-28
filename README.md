@@ -395,3 +395,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document handling when a `reduce-only` order is rejected because the authoritative position is already flat, smaller, or on the opposite side; use paper-only matching, flat, partial, flipped, delayed-snapshot, and unknown-outcome fixtures to avoid opening exposure, reconcile position and open orders, and retry only with a freshly validated quantity.
 
 - Document fee-schedule refresh when maker, taker, or account-tier rates change during a session; use paper-only unchanged, increased, decreased, unavailable, and stale-cache fixtures to recompute expected costs before new exposure, preserve existing protective orders, and block entries whose documented edge no longer clears the configured threshold.
+
+- Document position and PnL reconciliation across a funding settlement window; use paper-only before-settlement, exact-boundary, delayed-charge, duplicate-record, missing-record, and corrected-record fixtures to attribute funding once, avoid changing protective orders from provisional PnL, and require authoritative history before final reporting.
