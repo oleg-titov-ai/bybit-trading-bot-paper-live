@@ -401,3 +401,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document trailing-stop activation and callback-unit validation; use paper-only inactive, activated, percentage, absolute-distance, tick-rounded, gap-through, and unavailable-metadata fixtures to derive values from authoritative instrument rules, prevent immediate unintended triggers, and reconcile order and position state before replacement.
 
 - Document detection of an account position-mode change after startup; use paper-only unchanged, one-way-to-hedge, hedge-to-one-way, open-order, open-position, delayed-snapshot, and unavailable-mode fixtures to stop new submissions, preserve protective orders, and require authoritative reconciliation before resuming.
+
+- Document refresh of instrument risk tiers and maintenance-margin rules during a session; use paper-only unchanged, tightened, relaxed, stale-cache, unavailable, and open-position fixtures to recalculate allowable exposure before new orders, preserve protective orders, and block submissions when authoritative tier data is unresolved.
