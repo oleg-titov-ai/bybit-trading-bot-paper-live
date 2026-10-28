@@ -403,3 +403,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document detection of an account position-mode change after startup; use paper-only unchanged, one-way-to-hedge, hedge-to-one-way, open-order, open-position, delayed-snapshot, and unavailable-mode fixtures to stop new submissions, preserve protective orders, and require authoritative reconciliation before resuming.
 
 - Document refresh of instrument risk tiers and maintenance-margin rules during a session; use paper-only unchanged, tightened, relaxed, stale-cache, unavailable, and open-position fixtures to recalculate allowable exposure before new orders, preserve protective orders, and block submissions when authoritative tier data is unresolved.
+
+- Document handling when an instrument changes to suspended, close-only, pre-delisting, or unavailable status during a session; use paper-only normal, entry-disabled, exit-allowed, metadata-stale, open-position, and open-order fixtures to block new exposure, retain documented protective management, and require authoritative status before resuming.
