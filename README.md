@@ -399,3 +399,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document position and PnL reconciliation across a funding settlement window; use paper-only before-settlement, exact-boundary, delayed-charge, duplicate-record, missing-record, and corrected-record fixtures to attribute funding once, avoid changing protective orders from provisional PnL, and require authoritative history before final reporting.
 
 - Document trailing-stop activation and callback-unit validation; use paper-only inactive, activated, percentage, absolute-distance, tick-rounded, gap-through, and unavailable-metadata fixtures to derive values from authoritative instrument rules, prevent immediate unintended triggers, and reconcile order and position state before replacement.
+
+- Document detection of an account position-mode change after startup; use paper-only unchanged, one-way-to-hedge, hedge-to-one-way, open-order, open-position, delayed-snapshot, and unavailable-mode fixtures to stop new submissions, preserve protective orders, and require authoritative reconciliation before resuming.
