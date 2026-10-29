@@ -411,3 +411,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document market-order slippage protection and exchange price-band validation; use paper-only normal-depth, thin-book, gap, stale-book, unavailable-band, partial-fill, and rejected-order fixtures to cap executable deviation from the reviewed reference, block ambiguous submissions, and reconcile authoritative fills before any retry.
 
 - Document freshness and source selection for mark-price-based margin, liquidation-distance, and unrealized-PnL checks; use paper-only current, stale, divergent-index, missing, delayed, and corrected-price fixtures to block new exposure when risk valuation is unresolved, preserve protective orders, and report one authoritative timestamped source.
+
+- Document revalidation of existing open orders when tick size, quantity step, minimum value, or price-band metadata changes; use paper-only unchanged, tightened, relaxed, now-invalid, partially-filled, and unavailable-filter fixtures to stop replacements and new exposure, preserve valid protective intent, and require authoritative order status before amend or cancel decisions.
