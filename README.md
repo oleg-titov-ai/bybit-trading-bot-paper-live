@@ -405,3 +405,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document refresh of instrument risk tiers and maintenance-margin rules during a session; use paper-only unchanged, tightened, relaxed, stale-cache, unavailable, and open-position fixtures to recalculate allowable exposure before new orders, preserve protective orders, and block submissions when authoritative tier data is unresolved.
 
 - Document handling when an instrument changes to suspended, close-only, pre-delisting, or unavailable status during a session; use paper-only normal, entry-disabled, exit-allowed, metadata-stale, open-position, and open-order fixtures to block new exposure, retain documented protective management, and require authoritative status before resuming.
+
+- Document the authoritative boundary for resetting daily loss and trade-count limits; use paper-only before-boundary, exact-boundary, delayed-fill, funding-posted-late, clock-skew, and restart fixtures to assign events to one UTC risk day, prevent premature budget restoration, and reconcile realized results before enabling new exposure.
