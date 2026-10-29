@@ -409,3 +409,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document the authoritative boundary for resetting daily loss and trade-count limits; use paper-only before-boundary, exact-boundary, delayed-fill, funding-posted-late, clock-skew, and restart fixtures to assign events to one UTC risk day, prevent premature budget restoration, and reconcile realized results before enabling new exposure.
 
 - Document market-order slippage protection and exchange price-band validation; use paper-only normal-depth, thin-book, gap, stale-book, unavailable-band, partial-fill, and rejected-order fixtures to cap executable deviation from the reviewed reference, block ambiguous submissions, and reconcile authoritative fills before any retry.
+
+- Document freshness and source selection for mark-price-based margin, liquidation-distance, and unrealized-PnL checks; use paper-only current, stale, divergent-index, missing, delayed, and corrected-price fixtures to block new exposure when risk valuation is unresolved, preserve protective orders, and report one authoritative timestamped source.
