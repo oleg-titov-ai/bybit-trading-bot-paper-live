@@ -407,3 +407,5 @@ Maintenance note: document the safe trading pause used during exchange maintenan
 - Document handling when an instrument changes to suspended, close-only, pre-delisting, or unavailable status during a session; use paper-only normal, entry-disabled, exit-allowed, metadata-stale, open-position, and open-order fixtures to block new exposure, retain documented protective management, and require authoritative status before resuming.
 
 - Document the authoritative boundary for resetting daily loss and trade-count limits; use paper-only before-boundary, exact-boundary, delayed-fill, funding-posted-late, clock-skew, and restart fixtures to assign events to one UTC risk day, prevent premature budget restoration, and reconcile realized results before enabling new exposure.
+
+- Document market-order slippage protection and exchange price-band validation; use paper-only normal-depth, thin-book, gap, stale-book, unavailable-band, partial-fill, and rejected-order fixtures to cap executable deviation from the reviewed reference, block ambiguous submissions, and reconcile authoritative fills before any retry.
